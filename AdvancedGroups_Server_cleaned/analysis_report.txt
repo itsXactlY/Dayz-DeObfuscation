@@ -1,0 +1,35 @@
+DayZ Enhanced Deobfuscation - Detailed Analysis Report
+======================================================================
+
+SUSPICIOUS STRINGS ANALYSIS
+------------------------------
+No suspicious strings detected.
+
+ENCODING TYPE ANALYSIS
+-------------------------
+No encoding patterns detected.
+
+DISCOVERED PATTERNS
+--------------------
+No specific patterns discovered.
+
+CONSTANTS FOUND
+---------------
+Ccw1TwHfDPZggLVK = 8
+DoIeHgDE2mVRoHSc = 256
+DzExo7t5l9xWxtUm = 255
+FKvfMYJxCW20yYBF = 255
+HGS0YYmtehRNsqu0 = 32
+Q4M2uDvKXkQE7PiA = 5
+R0xMkh5k90T1essw = 3
+Rj7dcv1nSMPT3yj4 = 2
+TfLX6A3wPjCFybhs = 65
+U1uloE0ujVVvxhe2 = 3
+UGiapRt2QI0mOmEw = 13
+VGg1l8gfLgy7Yfo2 = 1
+XdjDbQjncRrhyHCQ = 2
+YIv48kTc2kMWJ5qx = 7
+
+CONTEXT KEY ARRAYS
+------------------
+No context key arrays found.

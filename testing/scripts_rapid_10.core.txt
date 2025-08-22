@@ -1,0 +1,1000 @@
+[ERROR][%s] :: Action selection '%s' was not found in view or fire geometry level of model when parsing class Crew::%s
+[ERROR][%s] :: Proxy bone selection name ('proxyPos') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in position member ('getInPos') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in direction member ('getInDir') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in position selection '%s' was not found in memory level of model when parsing class Crew::%s
+[ERROR][%s] :: Get in direction selection '%s' was not found in memory level of model when parsing class Crew::%s
+ [WARN][%s] :: Second driver found when parsing class Crew::%s , ignoring this value
+void rcMarkBoxArea(rcContext*, const float*, const float*, unsigned char, rcCompactHeightfield&)
+void rcMarkConvexPolyArea(rcContext*, const float*, int, float, float, unsigned char, rcCompactHeightfield&)
+void rcMarkCylinderArea(rcContext*, const float*, float, float, unsigned char, rcCompactHeightfield&)
+void rcFilterLowHangingWalkableObstacles(rcContext*, int, rcHeightfield&)
+void rcFilterLedgeSpans(rcContext*, int, int, const bool*, rcHeightfield&)
+void rcFilterWalkableLowHeightSpans(rcContext*, int, rcHeightfield&)
+void rcFilterWalkableLowHeightSpansExt(rcContext*, const int*, const unsigned int*, int, const bool*, rcHeightfield&)
+void rcRasterizeTriangle(rcContext*, const float*, const float*, const float*, unsigned char, short unsigned int, rcHeightfield&, const rcConfig&, int, int)
+void rcRasterizeDoorTriangles(rcContext*, const float*, int, unsigned char, short unsigned int, rcHeightfield&, int)
+void rcRasterizeTriangles(rcContext*, const float*, int, const int*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+void rcRasterizeTriangles(rcContext*, const float*, int, const short unsigned int*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+void rcRasterizeTriangles(rcContext*, const float*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+class HkBWaauXgXMLqObfx : uBQNjYrDvzoRVIlB {
+void EaTuPtDufKYwwQshjfH(int qovelcSQuxRsYXLNm) {}
+void qGDcykBNfsRZRbYmB(bool FyyPVJFYNaMFjMc) {}}*/#include "LBmaster_GroupsServer\   \COM5.OxambtxvSPpAiAznL\ydIOcaTLRlCNNbTm;lsS.wss
+class City: Name {
+class VegetationBroadleaf: NameIcon {
+override void ngWBOlGslGkzBIzjEU( pyBBmYacXYwZdTRKOd zfufTeNkziSoGwswR )
+override void ngWBOlGslGkzBIzjEU( pyBBmYacXYwZdTRKOd zfufTeNkziSoGwswR )
+class Static_rock_lava_boulder1: RockBase {};
+class Static_rock_lava_boulder2: RockBase {};
+class Static_rock_lava_boulder3: RockBase {};
+class Static_rock_lava_boulder4: RockBase {};
+class Static_rock_monolith5: RockBase {};
+class Static_rock_monolith5_snow: RockBase {};
+class Static_rock_spike4: RockBase {};
+class Static_rock_spike4_snow: RockBase {};
+class Static_rock_wallh7_long: RockBase {};
+class Static_rock_wallh7_long_snow: RockBase {};
+class Static_rock_wallh7_round: RockBase {};
+class Static_rock_wallh7_round_snow: RockBase {};
+class Static_rock_wallh7_tall: RockBase {};
+class Static_rock_wallh7_tall_snow: RockBase {};
+class Static_stone6_snow: RockBase {};
+class Static_stone6_snow_lc: RockBase {};
+class Static_stone7_snow: RockBase {};
+class Static_stone7_snow_lc: RockBase {};
+class Static_stone8_snow: RockBase {};
+class Static_stone8_snow_lc: RockBase {};
+class Static_stone9_snow: RockBase {};
+class Static_stone9_snow_lc: RockBase {};
+class Static_stone10_snow: RockBase {};
+class Static_stone10_snow_lc: RockBase {};
+class Static_stone11: RockBase {};
+class Static_stone11_lc: RockBase {};
+class Static_stone11_snow_kc: RockBase {};
+class Static_stone12: RockBase {};
+class Static_stone12_lc: RockBase {};
+class Static_stone12_snow_lc: RockBase {};
+class Static_stone13: RockBase {};
+class Static_stone13_lc: RockBase {};
+class Static_stone13_snow_k: RockBase {};
+class Static_stone14_lava: RockBase {};
+class Static_stone14_lava_lc: RockBase {};
+class Static_stone15_lava: RockBase {};
+class Static_stone15_lava_lc: RockBase {};
+class Static_stones_erosion2: RockBase {};
+class Static_stones_lava_cluster1: RockBase {};
+class Static_stones_lava_cluster2: RockBase {};class StaticObj_WaterSpring_Sakhal : Building
+class BushSoft_b_betulaHumilis_1s_winter: BushSoft
+class BushSoft_b_betulaNana_1s_winter: BushSoft
+class BushSoft_b_PiceaAbies_1f_winter: BushSoft
+class BushSoft_b_PiceaAbies_1f_dark: BushSoft
+class BushSoft_b_PiceaAbies_1f_frozen: BushSoft
+class BushSoft_b_betulaHumilis_1s_latefall: BushSoft
+class BushSoft_b_betulaNana_1s_latefall: BushSoft
+class BushHard_b_PinusPumila_1s: BushHard
+class BushHard_b_PinusPumila_1s_winter: BushHard
+class BushHard_b_caraganaArborescens_2s_leafless: BushHard
+class BushHard_b_caraganaArborescens_2s_winter: BushHard
+class BushHard_b_BetulaPendula_1f_winter: BushHard
+class BushHard_b_PiceaAbies_1fb_winter: BushHard
+class BushHard_b_PiceaAbies_1fb_frozen: BushHard
+class BushHard_t_PiceaAbies_1s_winter: BushHard
+class BushHard_t_PiceaAbies_1sb_winter: BushHard
+class BushHard_b_BetulaPendula_1f_latefall: BushHard
+class BushHard_b_PiceaAbies_1fb_dark: BushHard
+class BushHard_t_PiceaAbies_1s_dark: BushHard
+class BushHard_t_PiceaAbies_1s_frozen: BushHard
+class BushHard_t_PiceaAbies_1sb_dark: BushHard
+class BushHard_t_PiceaAbies_1sb_frozen: BushHard
+class TreeSoft_Winter: TreeSoft
+class TreeHard_Winter: TreeHard
+class TreeSoft_t_BetulaPendula_1f_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_1fb_winter: TreeSoft_Winter
+class TreeSoft_t_BetulaPendula_1s_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2f_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fb_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fc_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2w_winter: TreeSoft_Winter
+class TreeSoft_t_BetulaPendulaE_2w_winter: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_1f_winter: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_1f_frozen: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_2sb_winter: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_2sb_frozen: TreeSoft_Winter
+class TreeSoft_t_BetulaPendula_1f_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_1fb_latefall: TreeSoft_Winter
+class TreeSoft_t_BetulaPendula_1s_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2f_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fb_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fc_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2w_latefall: TreeSoft_Winter
+class TreeSoft_t_BetulaPendulaE_2w_latefall: TreeSoft_Winter
+class TreeSoft_t_populusAlba_1f_latefall: TreeSoft
+class TreeSoft_t_PiceaAbies_1f_dark: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_2sb_dark: TreeSoft_Winter
+class TreeHard_t_BetulaPendula_2s_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3s_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3f_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fb_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fc_winter: TreeHard_BetulaPendula
+class TreeHard_t_piceaabies_2d_winter: TreeHard
+class TreeHard_t_PiceaAbies_2f_winter: TreeHard
+class TreeHard_t_PiceaAbies_2f_frozen: TreeHard
+class TreeHard_t_PiceaAbies_2fb_winter: TreeHard
+class TreeHard_t_PiceaAbies_2fb_frozen: TreeHard
+class TreeHard_t_PiceaAbies_2s_winter: TreeHard_Winter
+class TreeHard_t_PiceaAbies_2s_frozen: TreeHard_Winter
+class TreeHard_t_piceaabies_3d_winter: TreeHard
+class TreeHard_t_sorbus_2s_winter: TreeHard_Winter
+class TreeHard_t_BetulaPendula_2s_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3s_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3f_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fb_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fc_latefall: TreeHard_BetulaPendula
+class TreeHard_t_populusAlba_2s_latefall: TreeHard
+class TreeHard_t_populusAlba_3s_latefall: TreeHard
+class TreeHard_t_populusNigra_3s_latefall: TreeHard
+class TreeHard_t_sorbus_2s_leafless: TreeHard_Winter
+class TreeHard_t_piceaabies_2d_dark: TreeHard
+class TreeHard_t_PiceaAbies_2f_dark: TreeHard
+class TreeHard_t_PiceaAbies_2fb_dark: TreeHard
+class TreeHard_t_PiceaAbies_2s_dark: TreeHard_Winter
+class TreeHard_t_piceaabies_3d_dark: TreeHard
+void defaultFnMB(inout vector pMat[4])
+void defaultBoneFunctionMax(inout vector pMat[4])
+void rotatePelvis(inout vector pMat[4])
+void invertXPosEntityPos(inout vector pMat[4])
+void rgptgRfPtFRjLVzf(mQBnxYmKynlNKkBhFGv jvsGdcjbPoyWqtysE) {
+void nYPiWzCsWyAzMCWp() {
+	static proto native void PopID();
+void yxyZFMtrxukAWEJt() {}}*/#include "LBmaster_GroupsServer\scripts\5_Mission\COM7.nG;cMoYzqzpRzWKxJc\ezgfwgxNeQeohvqqOW.xyz
+class WorldEditor:
+	proto native external void AddToEntitySelection(IEntity ent);
+	proto native void RemoveFromEntitySelection(IEntity en
+	void OnEnterEvent() {}
+	void PPERequestParamDataBase(int requester_idx, int mat_id, int param_id, int data_type = 0, int priority = 0, int mask = PPOperators.SET)
+	void InitValues()
+	void SetUpdatingDataValues(bool state)
+	void PassCheckEvents(ParticleManager pm)
+void yxyZFMtrxukAWEJt() {}}*/#include "LBmaster_GroupsServer\scripts\5_Mission\COM7.nG;cMoYzqzpRzWKxJc\ezgfwgxNeQeohvqqOW.xyz
+	void ScrollToPos( float pos )
+	void ScrollToBottom()
+	void ScrollToTop()
+	void UpdateScroller()
+	void OnWidgetScriptInit(Widget w)
+	protected void StopScrolling()
+	protected void UpdateScroll(int mouse_x, int mouse_y, bool is_dragging)
+	static void UpdateConsolePresetID()
+	static void OnServerInventoryCommandStatic(ParamsReadContext ctx)
+	proto native void LockDoor(int index, bool force = false);
+	proto native void UnlockDoor(int index, bool animate = true);
+	proto native void OutputDoorLog();
+	void OnDoorOpenStart(DoorStartParams params)
+	void OnDoorOpenFinish(DoorFinishParams params)
+	void OnDoorOpenAjarStart(DoorStartParams params)
+	void OnDoorOpenAjarFinish(DoorFinishParams params)
+	void OnDoorCloseStart(DoorStartParams params)
+	void OnDoorCloseFinish(DoorFinishParams params)
+	void OnDoorLocked(DoorLockParams params)
+	void OnDoorUnlocked(DoorLockParams params)
+	void ParticleManagerSettings(int poolSize, int flags = ParticleManagerSettingsFlags.NONE)
+class ParticleManager : Managed
+	private static ref ParticleManager g_ParticleManager;
+	static void CleanupInstance()
+	void ParticleManager(ParticleManagerSettings settings)
+	void PMTPlayback()
+	void PassOnePlaying(ParticleSource p)
+class CarOwnerState : TransportOwnerState
+class CarMove : TransportMove
+	proto native void SetSteering(float value, bool unused0 = false);
+	proto native void SetThrottle(float value);
+	proto native void SetClutch(float value);
+	proto native void SetBrake(float value, float unused0 = 0, bool unused1 = false);
+	proto native void SetHandbrake(float value);
+	proto native void SetBrakesActivateWithoutDriver(bool activate = true);
+	proto native void EngineStart();
+	proto native void EngineStop();
+	proto native void SetEnginePos(vector pos);
+	proto native void ShiftUp();
+	proto native void ShiftTo(int gear);
+	proto native void ShiftDown();
+	static void SendInputUserDataSwap(notnull InventoryLocation src1, notnull InventoryLocation src2, notnull InventoryLocation dst1, notnull InventoryLocation dst2, bool skippedSwap = false)
+	static void SendServerSwap(notnull InventoryLocation src1, notnull InventoryLocation src2, notnull InventoryLocation dst1, notnull InventoryLocation dst2, bool skippedSwap = false)
+	static void SerializeHandEvent(ParamsWriteContext ctx, HandEventBase e)
+	static void SendInputUserDataHandEvent(HandEventBase e)
+	static void SendServerHandEventViaInventoryCommand(notnull Man player, HandEventBase e)
+    void Start()
+	void ValidateStart()
+    void Stop()
+	protected void Destroy()
+	void SetAutodestroy(bool auto_destroy)
+	void SetEnableEventFrame(bool enable)
+	void Event_OnStarted()
+	void Event_OnStopped()
+	void Event_OnEffectStarted()
+	void Event_OnEffectEnded()
+	void Event_OnFrameUpdate(float time_delta)
+	void Event_OnRegistered(int id)
+	void Event_OnUnregistered()
+	void OnCheckUpdate()
+	void SetParent(Object parent_obj, int pivot)
+	void SetParent(Object parent_obj)
+	void SetCurrentParent( Object parent_obj, bool updateCached = true )
+	void SetPosition( vector pos )
+	void SetCurrentPosition( vector pos, bool updateCached = true )
+	void SetLocalPosition( vector pos )
+	void SetCurrentLocalPosition( vector pos, bool updateCached = true )
+	private void SDayZPlayerHeadingModel() {}
+	private void SDayZPlayerAimingModel() {}
+class DayZPlayerOwnerState : AnimPhysOwnerState
+	proto native void	SetHeading(float value);
+	proto native void	SetHeadingVelocity(float value);
+	proto native void	SetHeadingVelocityAlign(float value);
+	proto native void	SetHeadingTargetAlignVelocity(vector value);
+	proto native void	GetHeadingTargetAlignVelocity(out vector value);
+class DayZPlayerMove : AnimPhysMove
+	proto native void	SetHeading(float value);
+	proto native void	UpdateParent(DayZPlayer player);
+	void PPEMatClassParameterBool(int mat_idx, int parameter_idx, PPEClassBase parent)
+	override void InitDefaults()
+	override void InitCuttent()
+	override void Update(float timeslice, out Param p_total, out bool setting_defaults, int order)
+	static void EffectUnregister(int id)
+	static void EffectUnregisterEx(Effect effect)
+	static void Event_OnSoundWaveEnded(EffectSound effect_sound)
+	static void Event_OnFrameUpdate(float time_delta)
+	static void Init()
+	static void InitServer()
+	static void Cleanup()
+	static void ReactivateParticleServer(int effecterID)
+	static void StartParticleServer(int effecterID)
+	static void StopParticleServer(int effecterID)
+	static void DestroyEffecterParticleServer(int effecterID)
+	static void OnUpdate(float timeslice)
+	void EffecterParameters(string type, float lifespan)
+class ParticleEffecterParameters : EffecterParameters
+	void ParticleEffecterParameters(string type, float lifespan, int particleID)
+class EffecterBase : EntityAI
+	void EffecterBase()
+	void Init(int id, EffecterParameters parameters)
+	void DecreaseLifespan(float timeSlice)
+	void SetLifespan(float lifespan)
+	void Start()
+	void Stop()
+	void Reactivate()
+	void Process()
+class ParticleEffecter : EffecterBase
+	void ParticleEffecter(int lifespan)
+	override void Init(int id, EffecterParameters parameters)
+	void SetParticle(int particleID)
+	override void OnVariablesSynchronized()
+	private static string m_CompNames[COMP_TYPE_COUNT];	
+	void 	Event_OnFrame(IEntity other, float timeSlice);
+	void	DebugBBoxSetColor(int color);
+	void	DebugBBoxDelete();
+	void	DebugDirectionSetColor(int color);
+	void	DebugDirectionDelete();
+	static void	Init()
+	static void	LogErrorBadCompType(int comp_type, string fnc_name)
+	static void	LogWarningAlredyExist(int comp_type, string fnc_name)
+	void SetParentEntityAI(EntityAI e)
+	void Event_OnAwake()
+	void Event_OnInit()
+	void LogThis(string msg, string fnc_name = "n/a")
+	void LogThisWarning(string msg, string fnc_name = "n/a")
+	void LogThisError(string msg, string fnc_name = "n/a")
+	void SetRequestActive(PPERequesterBase request, bool active)
+	void SetRequestUpdating(PPERequesterBase request, bool active)
+	protected void RemoveActiveRequestFromMaterials(PPERequesterBase req)
+	protected void RequestsCleanup()
+	void InsertUpdatedMaterial(int mat_id)
+	protected void ProcessRequesterUpdates(float timeslice)
+	protected void ProcessMaterialUpdates(float timeslice)
+	protected void ProcessApplyValueChanges()
+	void Update(float timeslice)
+	void ChangePPEMaterial(PostProcessPrioritiesCamera priority, PostProcessEffectType type, string path, bool scriptside_only)
+	void StopAllEffects(int mask = 0)
+	void DbgPrnt(string text)
+	//void DayZAnimalCommandScript(DayZAnimal pAnimal)
+	proto native void 	SetFlagFinished(bool pFinished);
+	proto native 	void	PrePhys_SetTranslation(vector pInTransl); 			// vec3 in local space !
+	proto native 	void	PrePhys_SetRotation(float pInRot[4]);				// quaternion in local space !
+	override void EEHitBy(TotalDamageResult damageResult, int damageType, EntityAI source, int component, string dmgZone, string ammo, vector modelPos, float speedCoef)
+	override protected void EOnContact(IEntity other, Contact extra)
+	void RegisterHitComponentsForAI()
+	private void AddPotentialPrefixes(out TStringSet all, string cppName) {
+	private void AddPotentialPrefixCpps(out TStringSet all, string arrayPath) {
+	private void AddPotentialPrefixCpp(out TStringSet all, string cpppath) {
+	private void AddPotentialPrefix(out TStringSet all, string path) {
+	private void LoadPBO(string path, string filename) {
+	static void Delete() {
+	void LBMenuManager() {
+	void CloseAllMenus(PlayerIdentity target = null, bool clearAll = true) {
+	void ClearMenus(string menu) {
+	void ForceOpenMenu(int prio, string menu, LBMenuBase lbMenu) {
+	void OpenMenuRemote(PlayerIdentity target, string menu, LBMenuData data = null, bool forceOpen = false, bool clearOld = true, bool keepParent = false) {
+	override void OnShow() {
+	override void OnHide() {
+	override void OnDataReceived() {
+	override void OnRPC(Object target, int rpc_type, ParamsReadContext ctx) {
+	void LoadPlayers() {
+	void LoadPlayer(PlayerNameSave_ player) {
+	void LoadCurrentPlayerInfo() {
+	void CopyData(int type, Widget w) {
+	void InitCategories() {
+	override void OnDataReceived() {
+	override void OnHide() {
+	void ResetPreview() {
+	void UpdatePreview() {
+	void OnCategoryChanged() {
+	void FillItemList() {
+	private static ref set<string> preloaded = new set<string>();
+	private static bool loadedAllConfigs = false, missionInitialized = false;
+	static void Delete() {
+	void LBConfigManager() {
+	void APIListConfigs(LBAPIResponse resp) {
+	void OnConfigReceived(typename name) {
+	void LoadImmediate(string configName) {
+	void SetConfigPriority(typename configName, LBConfigPriority newPrio) {
+	void LoadAllConfigs() {
+	void OnRPC(Object target, int rpc_type, ParamsReadContext ctx);
+	void SaveEditedConfigs() {
+	void OnWarnConfirm() {
+	void LoadEditedConfigs() {
+	void SetPBOPrefix(string prefix) {
+	void SetCurrentVersion(MultilineTextWidget txt_version) {
+	void CreateRoots() {
+	void CreateRoot(string category_, string name_) {
+	void AddItemInSlot(string itemname, string slotName) {
+	void PrintEntries() {
+	private void InitCategory(string category) {
+	void TriggerLoad(string varPath) {
+	void TriggerLoadLine(string varPath) {
+	override void WriteToCtx(ParamsWriteContext ctx) {
+	override void UpdateVersion() {
+	void AfterRegister() {
+	void ValidateWebhookMessages() {
+	void OnConfigRequest() {
+	void OnConfigSyncConfirm() {
+	void OnConfigSaveConfirm() {
+	void OnListConfigs() {
+	void OnReloadConfigRequest() {
+	void LoadColor(int color_) {
+	void FillInherited(LBGroupPermission inherited) {
+	void SendMuteList() {
+	void MutePlayer(string name, string steamid, int minutes, string mutedBy) {
+	void UnMutePlayer(string steamid, string reason, bool sendWebhook = true) {
+	void SendMute(PlayerIdentity ident) {
+					private 						static 		int CX2ZzCFXgWXJazJn(TStringArray						U1Sd4epsxCOIXgqM)			{
+					private 				static 						Pa3J3Ke8FDLpogWd GsKnkLCepax8nbbk(T4QPEBrB2xOEx7Qc		H7tb4aCdGR8K5jmc,		int			ZbPfrwJiEPbUUYpZ)					{
+					private 						static 		int CX2ZzCFXgWXJazJn(TStringArray						U1Sd4epsxCOIXgqM)			{
+					private 				static 						Pa3J3Ke8FDLpogWd GsKnkLCepax8nbbk(T4QPEBrB2xOEx7Qc		H7tb4aCdGR8K5jmc,		int			ZbPfrwJiEPbUUYpZ)					{
+					private 						static 		int CX2ZzCFXgWXJazJn(TStringArray						U1Sd4epsxCOIXgqM)			{
+					private 				static 						Pa3J3Ke8FDLpogWd GsKnkLCepax8nbbk(T4QPEBrB2xOEx7Qc		H7tb4aCdGR8K5jmc,		int			ZbPfrwJiEPbUUYpZ)					{
+	void DynamicMusicPlayerRegistryChernarus()
+	override protected void RegisterTracksLocationStatic()
+class AnimPhysOwnerState : PawnOwnerState
+	proto native void	SetCorrectionType(int value);
+	proto native void	SetPosition(vector value);
+	proto native void	GetPosition(out vector value);
+	proto native void	SetRotation(float value[4]);
+	proto native void	GetRotation(out float value[4]);
+	proto native void	SetParent(Object value);
+	proto native void	SetLinked(Object value);
+	proto native void	SetSpeed(vector value);
+	proto native void	GetSpeed(out vector value);
+	proto native void	SetCollisionLayer(int value);
+	proto native void	SetFlags(int value);
+	proto native void	SetCollisionOffset(vector value);
+	proto native void	SetStance(int value);
+	override event void	GetTransform(inout vector transform[4])
+class AnimPhysMove : PawnMove
+	proto native void	SetCorrectionType(int value);
+	proto native void	SetPosition(vector value);
+	proto native void	GetPosition(out vector value);
+	proto native void	SetRotation(float value[4]);
+	proto native void	GetRotation(out float value[4]);
+	proto native void	SetParent(Object value);
+	proto native void	SetLinked(Object value);
+	proto native void	SetParentTransform(vector transform[4]);
+	proto native void	GetParentTransform(out vector transform[4]);
+	override event void	GetTransform(inout vector transform[4])
+	void ScriptInvokerTests()
+	void PrepareLayerInfo(int layer, float value, int operator)
+	override void SetParameterValueDefault(inout Param p_total)
+	proto void GetWindFunctionParams( out float fnMin, out float fnMax, out float fnSpeed );
+	proto native void SetWindFunctionParams( float fnMin, float fnMax, float fnSpeed );
+	proto native void SetRainThresholds( float tMin, float tMax, float tTime );
+	proto native void SetSnowfallThresholds( float tMin, float tMax, float tTime );	
+	proto native void SetSnowflakeScale(float scale);
+	proto native void SetDynVolFogDistanceDensity(float value, float time = 0);
+	static void GetClientServices()
+	static void LoadServers( notnull GetServersInput inputValues )
+	static void GetFavoriteServers(TStringArray favServers)
+	static void GetCachedFavServerInfo(array<ref CachedServerInfo> favServersInfoCache)
+	static void SetServerFavorited(string ipAddress, int port, int steamQueryPort, bool is_favorited )
+	static void GetCurrentServerInfo( string ip, int port )
+	static void ClearCurrentServerInfo()
+	static void SetInviteServerInfo( string ip, int port )
+	static void GetInviteServerInfo( out string ip, out int port )
+	static void OnLoadServersAsync( GetServersResult result_list, EBiosError error, string response )
+	static void LoadFriends()
+	static void ShowUserProfile( string uid )
+	static void OnUserProfileAsync(EBiosError error)
+	static void OnFriendsAsync( BiosFriendInfoArray friend_list, EBiosError error )
+	static void LoadPermissions( array<string> player_list )
+	static void OnPermissionsAsync( BiosPrivacyUidResultArray result_list, EBiosError error )
+	static void Init()
+void Log(string message, LogTemplateID template_id = 0)
+void LogInfo(string message, LogTemplateID template_id = 0)
+	static void OnAutoConnectToEmptyServer( GetFirstServerWithEmptySlotResult result_list, EBiosError error )
+	static void GetServerModList( string server_id )
+	static void OnGetServerModList( GetServerModListResult result_list, EBiosError error )
+class RestCallback : Managed
+	void OnError( int errorCode )
+	void OnTimeout()
+	void OnSuccess( string data, int dataSize )
+	void OnFileCreated( string fileName, int dataSize )
+	private void RestContext() {}
+	void ColorValuesData(array<float> values, int operator)
+	void SetValues(array<float> values)
+	void SetOperator(int operator)
+	void PPEMatClassParameterColor(int mat_idx, int parameter_idx, PPEClassBase parent)
+	override void InitDefaults()
+	override void InitCuttent()
+	override void Update(float timeslice, out Param p_total, out bool setting_defaults, int order)
+	void OnPermissions(BiosPrivacyUidResultArray result_list, EBiosError error)
+	void PrepareLayerInfo(int layer, array<float> values, int operator)
+	override void SetParameterValueDefault(inout Param p_total)
+	proto native void	DisableKey(int key);
+	proto native void	EnableMouseAndKeyboard(bool enable);
+	proto native void	EnableGamepad(bool enable);
+	proto native void	GetCurrentProfileActionKeys(int action_index, out TIntArray keys);
+	proto native void		SetDeviceEnabled(int device_index, bool enabled);
+	proto native void		ResetActiveGamepad();
+	proto native void		SelectActiveGamepad(int gamepad);
+	proto native void		GetGamepadList(out array<int> gamepads);
+	void FillUnavailableDeviceArray(int device, inout array<int> filler)
+	void UpdateConnectedInputDeviceList()
+	void OnGamepadConnected(int gamepad)
+	void OnGamepadIdentification(int gamepad)
+	void OnMouseConnected()
+	void OnMouseDisconnected()
+	void OnKeyboardConnected()
+	void OnKeyboardDisconnected()
+	static private void	RegisterKeyToUIElement(int key_code, string name, bool is_image_set )
+	static void Init()
+	void UpdatePlugState()
+	void GetCompatiblePlugTypes(out TIntArray IDs)
+	void StoreEnergySourceIDs(int b1, int b2, int b3, int b4)
+	void SetEnergyMaxPristine(float new_limit)
+	void SetCordLength( float new_length )
+	void SetPlugType( int new_type )
+	void SetAttachmentAction( int new_action_type )
+	void SetEnergyUsage( float new_usage )
+	void ResetEnergyUsage()
+	void SetCordTextureFile( string new_path )
+	void SetEnergySourceClient( EntityAI source )
+	void SetDeviceBySocketID(int id, EntityAI plugged_device)
+	void SetElectricityIconVisibility( bool make_visible )
+	void UpdateCanWork()
+	void HandleMoveInsideCargo(EntityAI container)
+	void SetUpdateInterval( float value )
+	void HandGuardAnd(HandGuardBase arg0 = null, HandGuardBase arg1 = null) { m_arg0 = arg0; m_arg1 = arg1; }
+	void HandGuardNot(HandGuardBase arg0 = null) { m_arg0 = arg0; }
+	void HandGuardOr(HandGuardBase arg0 = null, HandGuardBase arg1 = null) { m_arg0 = arg0; m_arg1 = arg1; }
+	void HandGuardHasItemInEvent(Man p = null) { m_Player = p; }
+	void HandGuardIsSameItemInHands(Man p = null) { m_Player = p; }
+	void HandGuardHasDestroyedItemInHands(Man p = null) { m_Player = p; }
+	void HandGuardHasItemInHands(Man p = null) { m_Player = p; }
+	void HandGuardHasRoomForItem(Man p = null) { m_Player = p; }
+	protected void StopUpdates()
+	void InteractBranch(EntityAI originalCaller, Man player = null, int system = 0)
+	protected void OnInteractBranch(EntityAI originalCaller, Man player, int system)
+	protected void WakeUpWholeBranch( EntityAI original_caller )
+	protected void PlugCordIntoSocket( EntityAI device_to_plug, int socket_id = -1 )
+	protected void UpdateSocketSelections(int socket_id, EntityAI device_to_plug)
+	protected void SetEnergySource( EntityAI source )
+	protected void SetPlugOwner(string selection_name, EntityAI device)
+	protected void UnplugCordFromSocket( int socket_to_unplug_ID )
+	protected void SetPowered( bool state )
+	protected void SetMySocketID( int slot_ID )
+	void Synch()
+	void ClearLastUpdateTime()
+	void RememberLastUpdateTime()
+	void DeviceUpdate()
+	protected void SetNVMode(int mode)
+	void ClearInventoryReservation()
+	void SetRequesterUpdating(bool state)
+	void Start(Param par = null)
+	void Stop(Param par = null)
+	void SetRequesterIDX(int idx)
+	protected void SetTargetValueBool(int mat_id, int param_idx, bool val, int priority_layer, int operator = PPOperators.SET)
+	protected void SetTargetValueBoolDefault(int mat_id, int param_idx)
+	protected void SetTargetValueInt(int mat_id, int param_idx, bool relative, int val, int priority_layer, int operator = PPOperators.SET)
+	override void RegisterMaterialParameters()
+	protected void ClearRequesterData()
+	protected void SendCurrentValueData(PPERequestParamDataBase data)
+	void OnUpdate(float delta)
+	protected void OnStart(Param par = null)
+	protected void OnStop(Param par = null)
+	protected void SetDefaultValuesAll()
+	void DbgPrnt(string text)
+	proto native void BindComboByHash( int iHash );			// bind combo to this input by hash (single/ or append to existing button)
+	proto native void AddAlternative();						// add new alternative keybind
+	proto native void ClearAlternative( int iIndex );		// clear binding alternative by index
+	proto native void SelectAlternative( int iIndex );		// select binding alternative by index
+	proto native void ClearDeviceBind( int iDeviceFlags );	// clear binding for specific device(s)
+	proto native void Supress();			// supress press event for next frame (while not pressed ATM - otherwise until release)
+	proto native void Lock();				// lock (until unlock called or exclusion is selected)
+	proto native void Unlock();				// unlock exclusively
+	proto native void ForceEnable( bool bEnable );	// force enable on/ off
+	proto native void ForceDisable( bool bEnable );	// force disable on/ off
+	proto native void Backlit_Override( int eType, int iColor ); // enable/ disable backlit of associated controls (EUABACKLIT_*)
+	private void UAInput();
+	private void UAInterface() {}
+	private void UAInputAPI() {}
+	proto native void ListCurrentProfile();
+	proto native void ListCurrentPreset();
+	proto native void ListAvailableButtons();
+	proto native void ListActiveGroup();
+	proto native void GetActiveInputs( out TIntArray items ); //! returns list of all bindable (i.e. visible) inputs from the active group ('core' by default)
+	static void Init()
+	static void ResetBlurEffects()
+	static void ResetRadialBlur()
+	static void SetBlurValue(int index, float value)
+	static void UpdateBlur()
+	static void SetBlurInventory(float value)
+	static void SetBlurDrunk(float value)
+	static void SetBlurFever(float value)
+	static void SetBlurMenu(float value)
+	static void SetBlurOptics(float value)
+	static void SetBlurFlashbang(float value)
+	static void SetBlurShock(float value)
+	static void ResetChromAbbEffects()
+	static void SetChromAbbValue(int index, float value)
+	static void SetChromAbb(float value)
+	static void UpdateChromAbb()
+	static void SetChromAbbOptic(float value)
+	/*static void SetChromAbbShock(float value)
+	static void SetOverlayColor(float r, float g, float b, float a)
+	static void ResetColorEffects()
+	static void SetColorValue(int index, float r, float g, float b, float a, float overlay)
+	static void UpdateColor()
+	static void SetLensEffect(float lens, float chromAbb, float centerX, float centerY)
+	static void PerformSetLensEffect(float lens, float chromAbb, float centerX, float centerY)
+	static void SetVignette(float intensity, float R, float G, float B, float A)
+	static void SetShockVignette(float value)
+	static void SetTunnelVignette(float value)
+	static void SetMenuVignette(float value)
+	static void ResetVignettes()
+	static void OverrideDOF(bool enable, float focusDistance, float focusLength, float focusLengthNear, float blur, float focusDepthOffset)
+	static void AddPPMask(float ndcX, float ndcY, float ndcRadius, float ndcBlur)
+	static void ResetPPMask()
+	static void ResetDOFOverride()
+	static void ResetLensEffect()
+	static void HitEffect(float value)
+	static void SetShockEffectColor(float value)
+	static void FlashbangEffect(float value)
+	static void EnableBurlapSackBlindness()
+	static void DisableBurlapSackBlindness()
+	static void SetDeathDarkening(float value) 
+	static void UpdateSaturation()
+	static void UpdateVignette()
+	protected void RegisterTracksLocationStatic()
+	protected void RegisterTracksLocationDynamic()
+	protected void RegisterTrackMenu(string soundSetName, bool hasPriority = false, int timeOfDay = DynamicMusicPlayerTimeOfDay.ANY)
+	protected void RegisterTrackCredits(string soundSetName, bool hasPriority = false)
+	protected void RegisterTrackTime(string soundSetName, int timeOfDay = DynamicMusicPlayerTimeOfDay.ANY)
+	protected void RegisterTrackLocationStatic(string soundSetName, vector start, vector end, int timeOfDay = DynamicMusicPlayerTimeOfDay.ANY, bool runImmediately = false)
+	protected void RegisterTrackLocationStaticMultiRectangle(string soundSetName, array<ref TVectorArray> locationBoundaries, int timeOfDay = DynamicMusicPlayerTimeOfDay.ANY, bool runImmediately = false)
+	proto native void GetDir(out float dir[4]);
+	proto native void SetGround(EntityAI e, vector mat[4]);
+	proto native void SetGroundEx(EntityAI e, vector pos, float dir[4]);
+	proto native void SetAttachment(notnull EntityAI parent, EntityAI e, int slotId);
+	proto native void SetCargoAuto(notnull CargoBase cargo, EntityAI e, int row, int col, bool flip);
+	proto native void SetCargo(notnull EntityAI parent, EntityAI e, int idx, int row, int col, bool flip);
+	proto native void SetProxyCargo(notnull EntityAI parent, EntityAI e, int idx, int row, int col, bool flip);
+	proto native void SetHands(notnull EntityAI parent, EntityAI e);
+	proto native void SetVehicle(notnull EntityAI parent, EntityAI e, int idx);
+	proto native void SetParent(notnull EntityAI parent);
+	proto native void SetItem(notnull EntityAI item);
+	proto native void SetSlot(int slotId);
+	proto native void SetIndex(int idx);
+	proto native void SetRow(int row);
+	proto native void SetCol(int col);
+	proto native void SetFlip(bool flip);
+	proto native void Reset();
+class ParticleBase : Entity
+	void ParticleBase()
+	void PlayParticle(int particle_id = -1)
+	protected void OnParticleStart()
+	protected void OnParticleStop()
+	protected void OnParticleReset()
+	protected void OnParticleEnd()
+	protected void OnParticleParented(IEntity parent)
+	protected void OnParticleUnParented(IEntity parent)
+	void RadialMenu()
+	void OnWidgetScriptInit(Widget w)
+	void SetControlType(RadialMenuControlType type)
+	void SetWidgetInitialized(bool state)
+	void RegisterClass(UIScriptedMenu class_name)
+	void SetRadiusOffset(float radius_offset)
+	void SetExecuteDistOffset(float execute_dist_offset)
+	void SetOffsetFromTop(float offset_from_top)
+	void SetItemCardRadiusOffset(float item_card_radius_offset)
+	void ActivateControllerTimeout(bool state)
+	void SetWidgetProperties(string delimiter_layout)
+	void Refresh(bool hide_selector = true)
+	override void HandleInput(Input inp)
+	private void UpdateVoiceIcon()
+	private static ref VONManagerBase m_VONManager = new VONManagerBase();
+	static void Init()
+	static void CleanupInstance()
+	void OnInit( DayZGame game )
+	void MainMenu_OnShow()
+	void MainMenu_OnHide()
+	void OnEnterCar()
+	void OnLeaveCar()
+	void OnSwimmingStart()
+	void OnSwimmingStop()
+	void HintClear()
+	void HintShow( UAInput action )
+	void KeybindingClear( )
+	void KeybindingShow( int keyHash )
+	void VisualiseHealth( int iLevel )
+	void SetHealth( float fHealth ) // range 0 .. 100
+	void SetBlood( float fBlood ) // range 0 .. 5000
+	void UpdatePlayer( bool bForce )
+	void RefreshVehicleLayout( int iGear, bool bCEL )
+	protected void SetupProbabilityArray()
+	protected void CreateResultDataStructure()
+	protected void InitCatchMasks()
+	protected void InitCatchMethodMask()
+	protected void InitCatchEnviroMask()
+	protected void InitItemValues(EntityAI item);
+	protected void ClearCatchingItemData()
+	protected void RecalculateProcessingData();
+	void GenerateResult()
+	void UpdateBaseProbability(YieldItemBase yItem);
+	void SetResultChanceOverride(bool ovrd, float val = 0.0)
+	void SetResultQualityOverride(bool ovrd, float val = 0.0)
+	void PPEClassBase(string mat_path_override = "")
+	protected void Init(string mat_path_override = "")
+	protected void CreateMaterial()
+	protected void CreateDataStructure()
+	protected void RegisterMaterialParameters();
+	protected void RegisterParameterScalarBool(int idx, string parameter_name, bool default_value)
+	protected void RegisterParameterScalarInt(int idx, string parameter_name, int default_value, int min, int max)
+	protected void RegisterParameterScalarFloat(int idx, string parameter_name, float default_value, float min, float max)
+	protected void RegisterParameterScalarFloatEx(int idx, string parameter_name, float default_value, float min, float max, typename type)
+	protected void RegisterParameterVector(int idx, string parameter_name, array<float> default_values) //needs to be compatible with every type of vector (vector2 to vector4), hence array<float>...
+	protected void RegisterParameterTexture(int idx, string parameter_name, string default_path)
+	protected void RegisterParameterResource(int idx, string parameter_name, string default_path)
+	void InsertParamValueData(PPERequestParamDataBase request_data)
+	void RemoveRequest(int req_idx)
+	void ApplyValueChanges()
+	protected void InsertUpdatedParameter(int mat_id)
+	void ParamUpdateRemove(int parameter_idx)
+	void SetParameterUpdating(int order, int parameter_id)
+	protected void ParamUpdateQueueCleanup(int order)
+	void HandSelectAnimationOfTakeToHandsEvent(Man p = null) { }
+	void HandSelectAnimationOfMoveFromHandsEvent(Man p = null)
+	void HandSelectAnimationOfForceSwapInHandsEvent(Man p = NULL) { m_Player = p; }
+	override protected void OnParticleStop()
+	override void AddAsChild(Object parent, vector local_pos = "0 0 0", vector local_ori = "0 0 0", bool force_rotation_to_world = false)
+	override void SetParticleParam(int parameter_id, float value )
+	override void SetParameter(int emitter, int parameter, float value)
+void ScaleParticleParamFromOriginal(int parameter_id, float coef )
+	override void ScaleParticleParam(int parameter_id, float coef )
+	override void IncrementParticleParamFromOriginal(int parameter_id, float value )
+	override void IncrementParticleParam(int parameter_id, float value )
+	override void SetWiggle(float random_angle, float random_interval)
+	void SetOfficial( bool Official )
+	void SetGameVersion( string GameVersion )
+	void SetRegionId( int RegionId )
+	void SetAntiCheatFilter( bool anti_cheat )
+	void SetNameFilter( string name )
+	void SetGameTypeFilter( string game_type )
+	void SetModeIdFilter( int mode_id )
+	void SetGameVersionFilter( string game_version )
+	void SetOfficialFilter( bool official )
+	void SetJoinableFilter( bool joinable )
+	void SetMapNameToRun( string mapNameToRun )
+	void SetIsModdedFilter( bool is_modded )
+	void SetMinPlayersFilter( int min_players )
+	void SetMaxPlayersFilter( int max_players )
+	void SetIsPasswordProtectedFilter( bool password_protected )
+	void SetRegionIdFilter( int region )
+	void SetPriorityFilter( int priority )
+	void SetFreeSlotsMin( int freeSlotsMin )
+	void SetFreeSlotsMax( int freeSlotsMax )
+	void SetHostIp( string hostIp )
+	void SetHostPort( int hostPort )
+	void SetMouseAndKeyboardEnabled(bool enabledMouseAndKeyboard)
+	void SetFavorited( bool show )
+	void SetFriendsPlaying( bool show )
+	void SetPreviouslyPlayed( bool show )
+	void SetProperVersionMatch( bool show )
+	void SetFullServer( bool show )
+	void SetThirdPerson( bool show )
+	void SetPublic( bool show )
+	override void OnEntry(HandEventBase e)
+	override void OnAbort(HandEventBase e)
+	override void OnExit(HandEventBase e)
+	override void OnEntry(HandEventBase e)
+	override void OnAbort(HandEventBase e)
+	override void OnExit(HandEventBase e)
+	void HandAnimatedMovingToAtt(Man player = null, HandStateBase parent = null)
+	override void OnEntry(HandEventBase e)
+	override void OnAbort(HandEventBase e)
+	override void OnExit(HandEventBase e)
+	void AnimSoundEvent(string soundPath)
+	void AnimSoundVoiceEvent(string 
+	override protected void OnUpdate(float delta)
+	protected void ProcessSimulation(float delta)
+	protected void SampleChannels(float time)
+	protected override void OnErrorThrown(int errorCode, owned string additionalInfo = "")
+	void InsertDialogueErrorProperties(int code, string message, int dialogButtonType = DBT_OK, int defaultButton = DBB_OK, int dialogMeaningType = DMT_EXCLAMATION, bool displayAdditionalInfo = true)
+	void EnProfilerTests()
+	override void OnAbort(HandEventBase e)
+	override void OnExit(HandEventBase e)
+	void HandAnimatedTakingFromAtt(Man player = null, HandStateBase parent = null)
+	override void OnEntry(HandEventBase e)
+	override void OnAbort(HandEventBase e)
+	override void OnExit(HandEventBase e)
+	override void Event_OnStarted()
+	void BloodSplatGround( vector start_pos, vector speed_vector, float decay_coef )
+	void BloodSplatWall()
+	override void OnEnterCalculations( Particle p )
+	override void OnExitCalculations(Particle p, float outSpeedf)
+	void TestFuncCountDataHelper()
+	void UiHintPanel(Widget parent_widget)
+	void Init(DayZGame game)
+	protected void LoadContentList()
+	protected void BuildLayout(Widget parent_widget)
+	protected void PopulateLayout()
+	void 	SetIK(int pStance, int pMovement, bool pAim, bool pRArm, bool pLArm)
+	void 	SetIKStance(int pStance, bool pAim, bool pRArm, bool pLArm)
+	void 	SetIKMelee(int pHitType, bool pAim, bool pRArm, bool pLArm)
+	void 	SetIKAll(bool pAim, bool pRArm, bool pLArm)
+	proto native void 	OnItemInHandsChanged(bool pInstant = false);
+	proto native void 	ResetWeaponInHands();
+	proto native void	HideItemInHands(bool pState);
+	void EffectSound()
+	override void InitEffect()
+	override void Stop()
+	protected void SoundReset()
+	protected void UpdateEvents()
+	override void Event_OnFrameUpdate(float time_delta)
+	override void Event_OnRegistered(int id)
+	void Event_OnSoundWaveEnded()
+	void Event_OnSoundFadeInStopped()
+	void Event_OnSoundFadeOutStarted()
+	override void SetAutodestroy(bool auto_destroy)
+	void SetSoundAutodestroy(bool auto_destroy)
+	override void SetParent(Object parent_obj, int pivot)
+	override void SetCurrentLocalPosition( vector pos, bool updateCached = true )
+	void SetSoundWaveKind(WaveKind wave_kind)
+	void SetSoundSet(string snd)
+	void SetSoundLoop(bool loop)
+	void SetEnviromentVariables(bool setEnvVariables)
+	void SetSoundVolume(float volume)
+	void SetWiggle(float random_angle, float random_interval)
+	void StopWiggle()
+	void RandomizeOrientation()
+	proto native void OnSessionPlayerListUpdate(array<string> newPlayers);
+	void TryGetSession( string join_handle = "" )
+	proto native void SetMultiplayState(bool is_active);
+	void OnSetActivity(EBiosError error)
+	void OnClearActivity(EBiosError error)
+	void OnGetGameplaySession(string session_address, int session_port)
+	/*void OnGetLobbySession(...)
+	void OnGetSessionError(EBiosError error)
+	void OnEnterGameplaySession(string session_address, int session_port, EBiosError error)
+	void OnLeaveGameplaySession(EBiosError error)
+	void OnShowInviteToGameplaySession(EBiosError error)
+	void GetSessionPlayerListEx(TStringArray outPlayerList)
+	void MarkCrewMemberUnconscious(int crewMemberIndex);	
+	void MarkCrewMemberDead(int crewMemberIndex);
+	void SetEngineZoneReceivedHit(bool pState)
+	override void GetDebugActions(out TSelectableActionInfoArrayEx outputList)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+	override void Action (HandEventBase e)
+/*class GHbmJigUUSrMEfSCYlrV: nNiZAKXTyjjWWKzXK {
+override void vYQaceGYdEUCLTyAcd(UpsXiaIHotSAtRsUcXTZ BrTkYovhzsrPpKt) {
+override void mgEdcuTgWQgYHWH() {
+	void Log(string msg, string fnc_name = "n/a")
+	void LogWarning(string msg, string fnc_name = "n/a")
+	void LogError(string msg, string fnc_name = "n/a")
+	void SetAsSkinned()
+	protected void CacheSkinningBloodInfectionChance(eAgents type)
+	void OnIgnitedTarget( EntityAI target_item)
+	void OnIgnitedThis( EntityAI fire_source)
+	void OnIgnitedTargetFailed( EntityAI target_item)
+	void OnIgnitedThisFailed( EntityAI fire_source)
+	void OnPlacementStarted(Man player);		
+	void OnHologramBeingPlaced(Man player);
+	void OnPlacementComplete(Man player, vector position = "0 0 0", vector orientation = "0 0 0");
+	void OnPlacementCancelled(Man player);
+	void SetRoofAbove(bool state)
+	void CheckForRoofLimited(float timeTresholdMS = 3000);
+	void RemoveAgent(int agent_id);
+	void RemoveAllAgents();
+	void RemoveAllAgentsExcept(int agent_to_keep);
+	void InsertAgent(int agent, float count = 1);
+	override void Delete()
+	void DeleteOnClient()
+	void DeleteSafe()
+class UniversalTemperatureSourceTimer : Timer
+	override void OnTimer()
+	override void Stop()
+	void SetParams(Param params)
+	void UniversalTemperatureSource(EntityAI pParent, UniversalTemperatureSourceSettings pSettings, UniversalTemperatureSourceLambdaBase pLambda)
+	void Init(EntityAI pParent)
+	void SetDefferedActive(bool pActive, float pSeconds)
+	void ChangeSettings(UniversalTemperatureSourceSettings pSettings)
+	void Update(UniversalTemperatureSourceSettings settings, UniversalTemperatureSourceLambdaBase lambda)
+	void UniversalTemperatureSourceDebug()
+	void AddHeader(string header)
+	void Add(string name, string value)
+	void Commit()
+	protected void ParseKeyPairs()
+	void Debug()
+	void EEOnAfterLoad()
+	void EEOnCECreate()
+	void AfterStoreLoad()
+	void OnBinLoadItemsDropped()
+	void HideAllSelections()
+	void ShowAllSelections()
+	void CombineItemsEx(EntityAI entity2, bool use_stack_max = false );
+	void SplitIntoStackMaxEx(EntityAI destination_entity, int slot_id);
+	void CombineItemsClient(EntityAI entity2, bool use_stack_max = false )
+	void SplitIntoStackMaxClient(EntityAI destination_entity, int slot_id);
+	void OnEvent(EventType eventTypeId, Param params)
+	void OnProcessLifetimeChanged(int plmtype)
+	void OnLicenseChanged()
+	void OnAfterCreate()
+	void OnActivateMessage()
+	void OnDeactivateMessage()
+	void OnDeviceReset()
+	void OnUpdate(bool doSim, float timeslice) 
+	void OnPostUpdate(bool doSim, float timeslice) 
+	void OnKeyPress(int key)
+	void OnKeyRelease(int key)
+	void OnMouseButtonPress(int button)
+class BoatOwnerState : TransportOwnerState
+class BoatMove : TransportMove
+	proto native void SetSteering(float value);
+	proto native void SetThrottle(float value);
+	proto native void SetClutch(float value);
+	proto native void EngineStart();
+	proto native void EngineStop();
+	proto native void ShiftUp();
+	proto native void ShiftTo(int gear);
+	proto native void ShiftDown();
+	proto native void Leak(BoatFluid fluid, float amount);
+	proto native void LeakAll(BoatFluid fluid);
+	proto native void Fill(BoatFluid fluid, float amount);
+	void OnEngineStart() {}
+	proto native void		UpdateSpectatorPosition(vector position);
+	proto native void		SendLogoutTime(Object player, int time);
+	proto native void		DisconnectPlayer(PlayerIdentity identity, string uid = "");
+	proto native void		AddToReconnectCache(PlayerIdentity identity);
+	proto native void		RemoveFromReconnectCache(string uid);
+	proto native void		ClearReconnectCache();
+	proto native void StorageVersion( int iVersion );
+	proto native void		ConfigGetTextArray(string path, out TStringArray values);
+	proto native void		ConfigGetFullPath(string path, out TStringArray full_path);
+	proto native void		ConfigGetObjectFullPath(Object obj, out TStringArray full_path);
+	proto native void		GetModInfos(notnull out array<ref ModInfo> modArray);
+	proto native void CopyToClipboard(string text);
+	proto void				CopyFromClipboard(out string text);
+	proto native void 	BeginOptionsVideo();
+	proto native void 	EndOptionsVideo();
+	proto native void	AdminLog(string text);
+	proto native void   ObjectDelete( Object obj );
+	proto native void   ObjectDeleteOnClient( Object obj );
+    proto native void   RemoteObjectDelete( Object obj ); /// RemoteObjectDelete - deletes only remote object (unregisters from network). do not use if not sure what you do
+	proto native void   RemoteObjectTreeDelete( Object obj ); /// RemoteObjectDelete - deletes only remote object tree (unregisters from network). do not use if not sure what you do
+    proto native void   RemoteObjectCreate( Object obj ); /// RemoteObjectCreate - postponed registration of network object (and creation of remote object). do not use if not sure what you do
+	proto native void   RemoteObjectTreeCreate( Object obj ); /// RemoteObjectTreeCreate - postponed registration of network object tree (and creation of remote objects). do not use if not sure what you do
+	proto void          ObjectGetType( Object obj, out string type );
+	proto void          ObjectGetDisplayName( Object obj, out string name );
+	proto native void	ReloadShape(Object obj);
+	static void SyncDataSend(notnull PlayerIdentity identity)
+	static void OnRPC(ParamsReadContext ctx)
+	private static PlayerRestrictedAreaInstance GetClosestArea(vector point)
+	private static bool IsCylinderInAreaBox(notnull PlayerRestrictedAreaInstance area, vector point, float cylinderRadius = 0.25, float cylinderHeight = 1)
+	proto native void		SetVoiceEffect(Object player, int effect, bool enable);
+	proto native void		SetVoiceLevel(int level);
+	proto native void 		EnableMicCapture(bool enable);
+	proto native void		SetMission(Mission mission);
+	proto native void		StartRandomCutscene(string world);
+	proto native void		PlayMission(string path);
+	proto protected native void		CreateMission(string path);
+	proto native void		RestartMission();
+	proto native void		AbortMission();
+	proto native void		RespawnPlayer();
+	proto native void		SetLoginTimerFinished();
+	proto native void		SetMainMenuWorld(string world);
+	proto native void		LogoutRequestTime();
+	proto native void		LogoutRequestCancel();
+	void SetDebugMonitorEnabled(int value)
+	proto native void		GetPlayerIndentities( out array<PlayerIdentity> identities );
+	proto void				SurfaceUnderObject(notnull Object object, out string type, out int liquidType);
+	proto void				SurfaceUnderObjectEx(notnull Object object, out string type, out string impact, out int liquidType);
+	proto void				SurfaceUnderObjectByBone(notnull Object object, int boneType, out string type, out int liquidType);
+	proto native void 		UpdatePathgraphRegion(vector regionMin, vector regionMax);
+	void SurfaceUnderObjectExCorrectedLiquid(notnull Object object, out string type, out string impact, out int liquidType)
+	void SurfaceUnderObjectByBoneCorrectedLiquid(notnull Object object, int boneType, out string type, out int liquidType)
+	void UpdatePathgraphRegionByObject(Object object)
+	proto native void	SetEVUser(float value);
+	proto native void 	OverrideDOF(bool enable, float focusDistance, float focusLength, float focusLengthNear, float blur, float focusDepthOffset);
+	proto native void	AddPPMask(float ndcX, float ndcY, float ndcRadius, float ndcBlur);
+	proto native void 	ResetPPMask();
+	proto native void 	OverrideInventoryLights(vector diffuse, vector ambient, vector ground, vector dir);
+	proto native void 	NightVissionLightParams(float lightIntensityMul, float noiseIntensity);
+	proto native void OpenURL(string url);
+	proto native void		InitDamageEffects(Object effect);
+	void UpdateWeight(WeightUpdateType updateType = WeightUpdateType.FULL, float weightAdjustment = 0);
+	void GetDebugActions(out TSelectableActionInfoArrayEx outputList)
+	void SetViewIndex( int index )
+	void OnCEUpdate()
+	void OnCEUpdate()
+	void ProcessVariables()
+	void OnDebugSpawnEx(DebugSpawnParams params)
+	void OnDebugSpawn() 
+	void ProcessInvulnerabilityCheck(string servercfg_param)
+	void SetBayonetAttached(bool pState, int slot_idx = -1) {};
+	void SetButtstockAttached(bool pState, int slot_idx = -1) {};
+	void SetInvisibleRecursive(bool invisible, EntityAI parent = null, array<int> attachments = null)
+	void SoundHardTreeFallingPlay()
+	void SoundSoftTreeFallingPlay()
+	void SoundHardBushFallingPlay()
+	void SoundSoftBushFallingPlay()
+	void SetUniversalTemperatureSource(UTemperatureSource uts)
+	void PairRemote(notnull EntityAI trigger);
+	void UnpairRemote();
+	void SetPersistentPairID(int id)
+	void ExecuteActionsConnectedToValve(int pValveIndex);
+	private void InitAttachmentExclusionValues()
+	private void InitInherentSlotExclusionMap()
+	protected void InitLegacyConfigExclusionValues()
+	protected void InitLegacySlotExclusionValuesImplicit()
+	protected void InitLegacySlotExclusionValuesDerived()
+	protected void InitGlobalExclusionValues();
+	protected void AddSingleExclusionValueGlobal(EAttExclusions value)
+	protected void ClearSingleExclusionValueGlobal(EAttExclusions value)
+	protected void SetAttachmentExclusionMaskGlobal(set<int> values)
+	protected void SetAttachmentExclusionMaskSlot(int slotId, set<int> values)
+	private void PropagateExclusionValueRecursive(set<int> values, int slotId)
+	private void ClearExclusionValueRecursive(set<int> values, int slotId)
+	override void FillErrorDataMap()
+	void EffectParticle()
+	override void InitEffect()
+	override void ValidateStart()
+	void SetParticle(Particle p)
+    override void Start()
+    override void Stop()
+	void AttachTo(Object obj, vector local_pos = "0 0 0", vector local_ori = "0 0 0", bool force_rotation_to_world = false)
+	void ReAttach()
+	protected void AddAsChild(Object obj, vector local_pos, vector local_ori, bool force_rotation_to_world)
+	void Event_OnPlayStart()
+	void Event_OnPlayStarted()
+	void SetParticleID( int id )
+	void SetCurrentParticleID( int id )
+	override void SetCurrentParent( Object parent_obj, bool updateCached = ta
+	void SetOrientation( vector ori )
+	void SetCurrentOrientation( vector ori, bool updateCached = true )
+	void ForceParticleRotationRelativeToWorld(bool state)
+	private void EconomyLogCategories();
+	private void EconomyOutputStrings();
+	proto native void ExportSpawnData();
+	proto native void ExportProxyData( vector vCenter = vector.Zero, float fRadius = 0 );
+	proto native void ExportClusterData();

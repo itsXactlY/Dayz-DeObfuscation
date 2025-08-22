@@ -1,0 +1,1000 @@
+[ERROR][%s] :: Action selection '%s' was not found in view or fire geometry level of model when parsing class Crew::%s
+[ERROR][%s] :: Proxy bone selection name ('proxyPos') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in position member ('getInPos') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in direction member ('getInDir') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in position selection '%s' was not found in memory level of model when parsing class Crew::%s
+[ERROR][%s] :: Get in direction selection '%s' was not found in memory level of model when parsing class Crew::%s
+ [WARN][%s] :: Second driver found when parsing class Crew::%s , ignoring this value
+void rcMarkBoxArea(rcContext*, const float*, const float*, unsigned char, rcCompactHeightfield&)
+void rcMarkConvexPolyArea(rcContext*, const float*, int, float, float, unsigned char, rcCompactHeightfield&)
+void rcMarkCylinderArea(rcContext*, const float*, float, float, unsigned char, rcCompactHeightfield&)
+void rcFilterLowHangingWalkableObstacles(rcContext*, int, rcHeightfield&)
+void rcFilterLedgeSpans(rcContext*, int, int, const bool*, rcHeightfield&)
+void rcFilterWalkableLowHeightSpans(rcContext*, int, rcHeightfield&)
+void rcFilterWalkableLowHeightSpansExt(rcContext*, const int*, const unsigned int*, int, const bool*, rcHeightfield&)
+void rcRasterizeTriangle(rcContext*, const float*, const float*, const float*, unsigned char, short unsigned int, rcHeightfield&, const rcConfig&, int, int)
+void rcRasterizeDoorTriangles(rcContext*, const float*, int, unsigned char, short unsigned int, rcHeightfield&, int)
+void rcRasterizeTriangles(rcContext*, const float*, int, const int*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+void rcRasterizeTriangles(rcContext*, const float*, int, const short unsigned int*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+void rcRasterizeTriangles(rcContext*, const float*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+class Param: Managed
+	void Param1(T1 p1)
+	void Param2(T1 p1, T2 p2)
+	void Param3(T1 p1, T2 p2, T3 p3)
+	void Param4(T1 p1, T2 p2, T3 p3, T4 p4)
+	void Param5(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)
+	void Param6(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
+    void Param7(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7)
+    void Param8(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8)
+    void Param9(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9)
+    void Param10(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9, T10 p10)
+	void OnUpdate(float timeslice)
+	void OnEvent(EventType eventTypeId, Param params)
+	private void DbgUI() {}
+	static proto native void DoUnitTest(); ///< Creates all possible DbgUI widgets. Just for the testing purposes.
+	static proto native void Text(string label);
+	static proto native void ColoredText(int color, string label);
+	static proto void Check(string label, out bool checked);
+	static proto void Combo(string label, out int selection, TStringArray elems);
+	static proto void List(string label, out int selection, TStringArray elems);
+	static proto void SliderFloat(string label, out float value, float min, float max, int pxWidth = 150);
+	static proto native void Spacer(int height);
+	static proto native void Panel(string label, int width, int height, int color = 0xaa555555);
+	static proto void InputText(string txt, out string value, int pxWidth = 150);
+	static proto void InputInt(string txt, out int value, int pxWidth = 150);
+	static proto void InputFloat(string txt, out float value, int pxWidth = 150);
+	static proto native void PlotLive(string label, int sizeX, int sizeY, float val, int timeStep = 100, int historySize = 30, int color = 0xFFFFFFFF);
+	static proto native void SameLine();
+	static proto native void SameSpot();
+	static proto native void PushID_Int(int int_id);
+	static proto native void PushID_Str(string str_id);
+	static proto native void PopID();
+	static proto void BeginCleanupScope();
+    static proto native void EndCleanupScope();
+	static proto native void Begin(string windowTitle, float x = 0, float y = 0);
+    static proto native void End();
+	proto native static void SoundDestroy(AudioHandle handle);
+	private proto void SetInstance(Class inst);
+	proto void RotationMatrixFromAngles(out vector mat[3]);
+	private void EnumTools();
+proto void DumpStack();
+proto void DumpStackString(out string stack);
+proto void DebugBreak(bool condition = true, void param1 = NULL, void param2 = NULL, void param3 = NULL, void param4 = NULL, void param5 = NULL, void param6 = NULL, void param7 = NULL, void param8 = NULL, void param9 = NULL);
+void CompileBreak();
+proto void DPrint(string var);
+		void ThrowWarning()
+proto void ErrorEx(string err, ErrorExSeverity severity = ErrorExSeverity.ERROR);
+proto void ErrorExString(string err, out string str, ErrorExSeverity severity = ErrorExSeverity.ERROR);
+proto native void Error2(string title, string err);
+void Error(string err)
+proto void Print(void var);
+proto void PrintToRPT(void var);
+proto void PrintFormat(string fmt, void param1 = NULL, void param2 = NULL, void param3 = NULL, void param4 = NULL, void param5 = NULL, void param6 = NULL, void param7 = NULL, void param8 = NULL, void param9 = NULL);
+	proto native void GetMatrix(out vector mat[4]);
+	proto native void SetMatrix(vector mat[4]);
+	proto native void SetDirection(vector direction);
+	proto native void SetPosition(vector position);
+	proto native void SetColor(int color);
+	proto native void SetFlags(ShapeFlags flags);
+	proto native void Destroy();
+	static void CreateMatrix(vector mat[4], float axisLength = 0.05, float arrowSize = 0.0)
+	static proto void InitScriptDiags();
+	static proto void ClearScriptDiags();
+	static proto void RegisterMenu(int id, string name, int parent);
+	static proto void RegisterItem(int id, string shortcut, string name, int parent, string values, func callback = null);
+	static proto void RegisterBool(int id, string shortcut, string name, int parent, bool reverse = false, func callback = null);
+	static proto void RegisterRange(int id, string shortcut, string name, int parent, string valuenames, func callback = null);
+	static proto void Unregister(int id);
+	*			o static void Callback();
+	*			o static void Callback(int value);
+	*			o static void Callback(int value, int id);
+	*			o static void Callback(bool value);
+	*			o static void Callback(bool value, int id);
+	*			o static void Callback(float value);
+	*			o static void Callback(float value, int id);
+	*			o static void Callback(int value);
+	*			o static void Callback(int value, int id);
+	static proto void UnbindCallback(int id);
+	static proto void SetValue(int id, int value);
+	static proto void SetRangeValue(int id, float value);
+	static proto void SetEngineValue(int id, int value);
+	static proto void SetEngineRangeValue(int id, float value);
+class IEntitySource: BaseContainer
+class WidgetSource: BaseContainer
+	event protected void EOnTouch(IEntity other, int extra) //!EntityEvent.TOUCH
+	event protected void EOnInit(IEntity other, int extra) //!EntityEvent.INIT
+	event protected void EOnExtra(IEntity other, int extra)	//!EntityEvent.EXTRA
+	event protected void EOnNotVisible(IEntity other, int extra) //!EntityEvent.NOTVISIBLE
+	event protected void EOnFrame(IEntity other, float timeSlice) //!EntityEvent.FRAME
+	event protected void EOnPostFrame(IEntity other, int extra) //!EntityEvent.POSTFRAME
+	event protected void EOnWorldProcess(IEntity other, int extra) //!EntityEvent.WORLDPROCESS
+	event protected void EOnAnimEvent(IEntity other, AnimEvent extra) //!EntityEvent.ANIMEVENT
+	event protected void EOnSoundEvent(IEntity other, SoundEvent extra) //!EntityEvent.SOUNDEVENT
+	event protected void EOnSimulate(IEntity other, float dt) //!EntityEvent.SIMULATE
+	event protected void EOnPostSimulate(IEntity other, float timeSlice)	//!EntityEvent.POSTSIMULATE
+	event protected void EOnJointBreak(IEntity other, int extra) //!EntityEvent.JOINTBREAK
+	event protected void EOnPhysicsMove(IEntity other, int extra) //!EntityEvent.PHYSICSMOVE
+	event protected void EOnContact(IEntity other, Contact extra) //!EntityEvent.CONTACT
+	protected void EOnUser0(IEntity other, int extra) //!EntityEvent.EV_USER+0
+	protected void EOnUser1(IEntity other, int extra) //!EntityEvent.EV_USER+1
+	event protected void EOnEnter(IEntity other, int extra) //!EntityEvent.ENTER
+	event protected void EOnLeave(IEntity other, int extra) //!EntityEvent.LEAVE
+	protected void EOnUser4(IEntity other, int extra) //!EntityEvent.EV_USER+4
+	protected void EOnDummy020(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy021(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy022(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy023(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy024(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy025(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy026(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy027(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy028(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy029(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy030(IEntity other, int extra)	//!Placeholder
+	protected void EOnDummy031(IEntity other, int extra)	//!Placeholder
+	proto external void GetTransform(out vector mat[]);
+	proto external void GetRenderTransform(out vector mat[]);
+	proto external void GetLocalTransform(out vector mat[]);
+	proto native external void SetTransform(vector mat[4]);
+	proto native external void SetYawPitchRoll(vector angles);
+	proto native external void SetAngles(vector angles);
+	proto native external void SetOrigin(vector orig);
+	proto native external void SetScale(float scale);
+	proto native void SetID(int id);
+	proto native void SetName(string name);
+	proto external void GetBounds(out vector mins, out vector maxs);
+	proto external void GetWorldBounds(out vector mins, out vector maxs);
+	proto external volatile void SendEvent(notnull IEntity actor, EntityEvent e, void extra);
+	proto native external void SetObject(vobject object, string options);
+	proto native external void FilterNextTrace();
+	protected void IEntity(IEntitySource src, IEntity parent);	
+proto native void SetFixedLOD(IEntity ent, int lod);
+proto native void SetRenderView(IEntity ent, int cam_index, int width, int height);
+proto void GetRenderView(IEntity ent, out int cam_index, out int width, out int height);
+class ParamEnum: Managed
+	void ParamEnum(string key, string value, string desc = "")
+class ParamEnumArray: array<ref ParamEnum>
+	void Attribute(string defvalue, string uiwidget, string desc = "", string rangescale = "", ParamEnumArray enums = NULL)
+	void EditorAttribute(string style, string category, string description, vector sizeMin, vector sizeMax, string color, string color2 = "0 0 0 0", bool visible = true, bool insertable = true, bool dynamicBox = false)
+	private void Math() {}
+	private void Math2D();
+	private void Math3D() {}
+	proto static void YawPitchRollMatrix(vector ang, out vector mat[3]);
+	proto static void DirectionAndUpMatrix(vector dir, vector up, out vector mat[4]);
+	proto static void MatrixMultiply4(vector mat0[4], vector mat1[4], out vector res[4]);
+	proto static void MatrixMultiply3(vector mat0[3], vector mat1[3], out vector res[3]);
+	proto static void MatrixInvMultiply4(vector mat0[4], vector mat1[4], out vector res[4]);
+	proto static void MatrixInvMultiply3(vector mat0[3], vector mat1[3], out vector res[3]);
+	proto static void MatrixInverse4(vector mat[4]);
+	proto static void MatrixInverse3(vector mat[3]);
+	proto static void MatrixOrthogonalize4(vector mat[4]);
+	proto static void MatrixOrthogonalize3(vector mat[3]);
+	static void MatrixIdentity4(out vector mat[4])
+	static void MatrixIdentity3(out vector mat[3])
+	static void ScaleMatrix(float scale, out vector mat[3])
+	static void QuatIdentity(out float q[4])
+	static void QuatCopy(float s[4], out float d[4])
+	proto static void MatrixToQuat(vector mat[3], out float d[4]);
+	proto static void QuatToMatrix(float q[4], out vector mat[3]);
+	proto static void QuatLerp(out float qout[4], float q1[4], float q2[4], float frac);
+	proto static void QuatMultiply(out float qout[4], float q1[4], float q2[4]);
+	proto static void ConePoints(vector origin, float length, float halfAngle, float angleOffset, out vector leftPoint, out vector rightPoint);
+	proto static void BlendCartesian(vector samplePosition, notnull array<vector> inPositions, notnull array<float> outWeights);
+proto native void dSetInteractionLayer(notnull IEntity worldEntity, int mask1, int mask2, bool enable);
+proto native void dSetGravity(notnull IEntity worldEntity, vector g);
+proto native void dSetTimeSlice(notnull IEntity worldEntity, float timeSlice);
+class PhysicsGeomDef: Managed
+	void PhysicsGeomDef(string name, dGeom geom, string materialName, int layerMask)
+proto native void dBodyDestroy(notnull IEntity ent);
+proto native void dBodySetInteractionLayer(notnull IEntity ent, int mask);
+proto native void dBodySetGeomInteractionLayer(notnull IEntity ent, int index, int mask);
+proto native void dBodyActive(notnull IEntity ent, ActiveState activeState);
+proto native void dBodyDynamic(notnull IEntity ent, bool dynamic);
+proto native void dBodySetDamping(notnull IEntity ent, float linearDamping, float angularDamping);
+proto native void dBodySetSleepingTreshold(notnull IEntity body, float linearTreshold, float angularTreshold);
+proto native void dBodySetSolid(notnull IEntity ent, bool solid);
+proto native void dBodyEnableCCD(notnull IEntity body, float maxMotion, float sphereCastRadius);
+proto native void dBodySetLinearFactor(notnull IEntity body, vector linearFactor);
+proto native void SetVelocity(notnull IEntity ent, vector vel);
+proto native void dBodyRemoveBlock(notnull IEntity worldEntity, dBlock block);
+proto native void dBodySetInertiaTensorV(notnull IEntity body, vector v);
+proto native void dBodySetInertiaTensorM(notnull IEntity body, vector m[3]);
+proto native void dBodySetMass(notnull IEntity body, float mass);
+proto native void dBodyApplyTorqueImpulse(notnull IEntity ent, vector torqueImpulse);
+proto void dBodyGetInvInertiaTensorWorld(notnull IEntity body, out vector inertiaTensorWS[3]);
+proto void dBodyApplyImpulseAt(notnull IEntity body, vector impulse, vector pos);
+proto void dBodyApplyImpulse(notnull IEntity body, vector impulse);
+proto void dBodyApplyForce(notnull IEntity body, vector force);
+proto void dBodyApplyForceAt(notnull IEntity body, vector pos, vector force);
+proto native void dBodyApplyTorque(notnull IEntity body, vector torque);
+proto void dBodySetAngularVelocity(notnull IEntity body, vector angvel);
+proto native void dBodySetTargetMatrix(notnull IEntity body, vector matrix[4], float timeslice);
+proto native void dBodyGetWorldTransform(notnull IEntity body, out vector matrix[4]);
+proto native void dBodyGetDirectWorldTransform(notnull IEntity body, out vector matrix[4]);
+proto native void dGeomDestroy(dGeom geom);
+proto native void dJointDestroy(dJoint joint);
+proto native void dJointHingeSetLimits(dJoint joint, float low, float high, float softness, float biasFactor, float relaxationFactor);
+proto native void dJointHingeSetAxis(dJoint joint, vector axis);
+proto native void dJointHingeSetMotorTargetAngle(dJoint joint, float angle, float dt, float maxImpulse);
+proto native void dJointConeTwistSetAngularOnly(dJoint joint, bool angularOnly);
+proto native void dJointConeTwistSetLimit(dJoint joint, int limitIndex, float limitValue);
+proto native void dJointConeTwistSetLimits(dJoint joint, float _swingSpan1, float _swingSpan2, float _twistSpan, float _softness, float _biasFactor, float _relaxationFactor);
+proto native void	dJoint6DOFSetLinearLimits(dJoint joint, vector linearLower, vector linearUpper);
+proto native void	dJoint6DOFSetAngularLimits(dJoint joint, vector angularLower, vector angularUpper);
+proto native void dJoint6DOFSetLimit(dJoint joint, int axis, float lo, float hi);
+proto native void dJoint6DOFSpringSetSpring(dJoint joint, int axis, float stiffness, float damping);
+proto native void dJointSliderSetLinearLimits(dJoint joint, float lowerLimit, float upperLimit);
+proto native void dJointSliderSetAngularLimits(dJoint joint, float lowerLimit, float upperLimit);
+proto native void dJointSliderSetDirLinear(dJoint joint, float softness, float restitution, float damping);
+proto native void dJointSliderSetDirAngular(dJoint joint, float softness, float restitution, float damping);
+proto native void dJointSliderSetLimLinear(dJoint joint, float softness, float restitution, float damping);
+proto native void dJointSliderSetLimAngular(dJoint joint, f
+proto native void dJointSliderSetOrthoLinear(dJoint joint, float softness, float restitution, float damping);
+proto native void dJointSliderSetOrthoAngular(dJoint joint, float softness, float restitution, float damping);
+proto native void dJointSliderSetLinearMotor(dJoint joint, float velocity, float force);
+proto native void dJointSliderSetAngularMotor(dJoint joint, float velocity, float force);
+	protected void Physics() {};
+	protected void SurfaceProperties() {};
+	private void Contact() {}
+	static proto void Enable(bool enable, bool immediate = false, bool sessionReset = true);
+	static proto void SortData();
+	static proto void ResetSession(bool fullReset = false);
+	static proto void SetModule(EnProfilerModule module, bool sessionReset = true);
+	static proto void SetInterval(int interval, bool sessionReset = true);
+	static proto void SetTimeResolution(int resolution);
+	static proto void EnableAverage(bool enable);
+	static proto void Dump();
+	static proto void GetTimePerClass(notnull out array<ref EnProfilerTimeClassPair> outArr, int count = int.MAX);
+	static proto void GetAllocationsPerClass(notnull out array<ref EnProfilerCountClassPair> outArr, int count = int.MAX);
+	static proto void GetInstancesPerClass(notnull out array<ref EnProfilerCountClassPair> outArr, int count = int.MAX);
+	static proto void GetTimePerFunc(notnull out array<ref EnProfilerTimeFuncPair> outArr, int count = int.MAX);
+	static proto void GetCountPerFunc(notnull out array<ref EnProfilerCountFuncPair> outArr, int count = int.MAX);
+	proto native void Release();
+	private void EnScript() {}
+	static proto void Watch(void var, int flags);
+proto void Sort(void param_array[], int num);
+proto void reversearray(void param_array);
+proto void copyarray(void destArray, void srcArray);
+proto volatile void Idle();
+	void Hello()
+	void Test()
+class Obsolete: Managed
+	void Obsolete(string msg = "")
+void PrintString(string s)
+	proto native void Clear();
+	proto void Set(int n, T value);
+	void InsertAll(notnull array<T> from)
+	proto native void Remove(int index);
+	proto native void RemoveOrdered(int index);
+	proto native void Resize(int newSize);
+	proto native void Reserve(int newSize);
+	proto native void Swap(notnull array<T> other);
+	proto native void Sort(bool reverse = false);
+	void RemoveItem(T value)
+	void RemoveItemUnOrdered(T value)
+	void Debug()
+	void SwapItems(int item1_index, int item2_index)
+	void InsertArray(array<T> other)
+	void Invert()
+	void ShuffleArray()
+	proto native void Clear();
+	proto native void Remove(int index);
+	proto native void Swap(set<T> other);
+	void InsertSet(set<T> other)
+	void RemoveItem(T value)
+	void RemoveItems(set<T> other)
+	void Debug()
+	proto native void Clear();
+	proto void Set(TKey key, TValue value);
+	proto void Remove(TKey key);
+	proto void RemoveElement(int i);
+	void Split(string sample, out array<string> output)
+	proto void Set(int index, string input);
+	void OldSet(int n, string _value)
+	proto void Insert(int index, string input);
+proto void GetHourMinuteSecond(out int hour, out int minute, out int second);
+proto void GetYearMonthDay(out int year, out int month, out int day);
+proto void GetHourMinuteSecondUTC(out int hour, out int minute, out int second);
+proto void GetYearMonthDayUTC(out int year, out int month, out int day);
+proto native void MemoryValidation(bool enable);
+proto native void StartVideo(string name);
+proto native void StopVideo();
+proto native void ClearKey(KeyCode key);
+proto void GetMousePos(out int x, out int y);
+proto void GetScreenSize(out int x, out int y);
+proto native void EndParse(ParseHandle file);
+proto void		CloseFile(FileHandle file);
+proto void		FPrint(F
+proto void		FPrintln(FileHandle file, void var);
+proto native void CloseFindFile(FindFileHandle handle);
+proto native void ReleaseObject(vobject object, int flag = 0);
+//proto void CreateModel(IEntity ent, vector mins, vector maxs);
+//proto void RemoveModel(IEntity ent);
+proto void UpdateVertsEx(notnull IEntity ent, int surf, vector verts[], float uv[]);
+proto void UpdateIndices(vobject obj, int surf, int indices[]);
+proto native void	SetBone(notnull IEntity ent, int bone, vector angles, vector trans, float scale);
+proto native void	SetBoneGlobal(notnull IEntity ent, int bone, vector mat[4]);
+proto native void	SetAnimFrame(notnull IEntity ent, int slot, float frame);
+proto native void	SetAnimSlot(notnull IEntity ent, int slot, vobject anim, float blendin, float blendout, BoneMask mask, int fps, AnimFlags flags);
+proto native void ChangeAnimSlotMask(notnull IEntity ent, int slot, float blendin, BoneMask mask);
+proto native void ChangeAnimSlotFPS(notnull IEntity ent, int slot, int fps);
+proto native void	SetAnimMask(notnull IEntity ent, int mask);
+proto void SetParticleParm(notnull IEntity ent, int emitor, EmitorParam parameter, void value);
+proto void GetParticleParm(notnull IEntity ent, int emitor, EmitorParam parameter, out void value);
+proto void GetParticleParmOriginal(notnull IEntity ent, int emitor, EmitorParam parameter, out void value);
+proto native void ResetParticlePosition(notnull IEntity ent);
+proto native void RestartParticle(notnull IEntity ent);
+class VRDevice : Managed
+	proto native void 								RecenterHeadTracking();
+	proto native void 								SetScale(float scale);
+	proto external void 						GetEyeFOV(VREye eye, out float leftTan, out float rightTan, out float upTan, out float downTan);
+class VRDevice_PS4 : VRDevice
+	proto native void Set2D(bool enabled);
+	proto native void SetRecenterHeadFlags(PSVrHeadRecenterFlagsEnum flags);
+	proto native void SetMinOutputColor(int color);
+	proto native void SetEyeFOV(VREye eye, float leftTan, float rightTan, float upTan, float downTan);
+	proto native void ResetToDeviceFOV(VREye eye);
+	proto native void SetOversamplingFactor(float factor);
+class Oculus : VRDevice
+class Widget: Managed
+	proto private void Widget();
+	proto static void SetLV(float lv);
+	proto static void SetTextLV(float lv);
+	proto static void SetObjectLighting(float lighting);
+	proto native void SetName(string name);
+	proto native void Show(bool show, bool immedUpdate = true);
+	proto native void Enable(bool enable);
+	proto native void SetSort(int sort, bool immedUpdate = true);
+	proto void GetUserData(out Class data);
+	proto native void SetUserData(Class data);
+	proto native void SetUserID(int id);
+	proto native void SetPos(float x, float y, bool immedUpdate = true);
+	proto native void SetSize(float w, float h, bool immedUpdate = true);
+	proto native void SetScreenPos(float x, float y, bool immedUpdate = true);
+	proto native void SetScreenSize(float w, float h, bool immedUpdate = true);
+	proto native void SetColor(int color);
+	proto native void SetRotation(float roll, float pitch, float yaw, bool immedUpdate = true);
+	proto native void SetAlpha(float alpha);
+	proto void GetPos(out float x, out float y);
+	proto void GetSize(out float width, out float height);
+	proto void GetScreenPos(out float x, out float y);
+	proto void GetScreenSize(out float width, out float height);
+  proto native void SetTransform(vector mat[4], bool immedUpdate = true);
+	proto native void AddChild(Widget child, bool immedUpdate = true);
+	proto native void RemoveChild(Widget child);
+	proto native volatile void Update();
+	proto void GetScript(out Class data);
+	proto native void SetHandler(ScriptedWidgetEventHandler eventHandler);
+	proto native void Unlink(); //destroys widget and all its children
+class WorkspaceWidget: Widget
+proto native void ReportMouse(int mousex, int mousey, Widget rootWidget);
+  	proto native void SetTextSpacing(int horiz, int vert);
+	proto native void SetTextExactSize(int size);
+  	proto native void SetTextOffset(int left, int top);
+	proto native void SetText(string text, bool immedUpdate = true);
+	proto native void SetOutline(int outlineSize, int argb = 0xFF000000);
+	proto native void SetShadow(int shadowSize, int shadowARGB = 0xFF000000, float shadowOpacity = 1, float shadowOffsetX = 0, float shadowOffsetY = 0);
+	proto void GetShadowOffset(out float sx, out float sy);
+	proto native void SetItalic(bool italic);
+	proto native void SetBold(bool bold);
+	proto void GetTextSize(out int sx, out int sy);
+	proto void SetTextFormat(string text, void param1 = NULL, void param2 =
+	proto native void SetTextProportion(float val);
+	proto native void  SetContentOffset(float offset, bool snapToLine = false);
+	proto native void  ElideText(int line, float maxWidth, string str);
+	proto native void  SetLinesVisibility(int lineFrom, int lineTo, bool visible);
+	proto native void SetRefresh(int period, int offset);
+	proto native void SetResolutionScale(float xscale, float ycale);
+	proto native void SetImageTexture(int image, RTTextureWidget texture);
+	proto void GetImageSize(int image, out int sx, out int sy);
+	proto native void SetUV(float uv[4][2]);
+	proto native void SetMaskProgress(float value);
+	proto native void SetMaskTransitionWidth(float value);
+	proto void GetText(out string text);
+	proto native void SetLine(int line, string text);
+	proto void GetLine(int line, out string text);
+	proto native void SetTextColor(int color);
+	proto native void SetTextShadow(int shadowSize, int shadowARGB = 0xFF000000, float shadowOpacity = 1.0, float shadowOffsetX = 0.0, float shadowOffsetY = 0.0);
+	proto native void SetTextItalic(bool italic);
+	proto native void SetTextBold(bool bold);
+	proto native void DrawLine(float x1, float y1, float x2, float y2, float width, int color);
+	proto native void Clear();
+	proto native void SetText(string str);
+	proto native void SetHideText(bool hide);
+	proto native void SetMinMax(float minimum, float maximum);
+	proto native void SetCurrent(float curr);
+	proto native void SetStep(float step);
+	proto native void SetCurrent(float curr);
+	proto native void SetText(string text);
+	proto void GetText(out string text);
+	proto native void SetTextOffset(float xoffset, float yoffset);
+	proto native void SetTextHorizontalAlignment(int align);
+	proto native void SetTextVerticalAlignment(int align);
+	proto native void SetTextProportion(float val);
+	proto native void ClearAll();
+	proto native void SetItem(int item, string value);
+	proto native void RemoveItem(int item);
+	proto native void SetText(string str);
+	proto native void SetChecked(bool checked);
+	proto native void ClearItems();
+	proto native void SelectRow(int row);
+	proto native void RemoveRow(int row);
+	proto native void EnsureVisible(int row);
+	proto native void SetItem(int position, string text, Class userData, int column);
+	proto void GetItemData(int row, int column, out Class data);
+	proto native void SetItemColor(int row, int column, int color );
+native void AddChildAfter(Widget child,Widget after, bool immedUpdate = true);
+	proto native void SetContentAlignmentH(WidgetAlignment alignment);
+	proto native void SetContentAlignmentV(WidgetAlignment alignment);
+	proto native void HScrollToPos(float pos);
+	proto native void HScrollToPos01(float pos01);
+	proto native void HScrollToWidget(Widget child);
+	proto native void VScrollToPos(float pos);
+	proto native void VScrollToPos01(float pos01);
+	proto native void VScrollToWidget(Widget child);
+	proto native void Unload();
+	proto native void SetLooping(bool looping);	
+	proto native void DisableSubtitles(bool disable);
+	proto void SetCallback(VideoCallback cb, func fn);
+proto native void SetGUIWidget(IEntity ent, int index, RTTextureWidget w);
+class ScriptedWidgetEventHandler: Managed
+proto native void SetCursorWidget(Widget cursor);
+proto native void ShowCursorWidget(bool show);
+proto native void LoadWidgetStyles(string filename);
+proto native void SetFocus(Widget w);
+proto native void SetModal(Widget w);
+proto native void SetWidgetWorld(RenderTargetWidget w, IEntity wrldEntity, int camera);
+//proto native void SchedulePreload(vector pos, float radius);
+proto native void SetListenerCamera(int camera);
+proto native void SetCamera(int cam, vector origin, vector angle);
+proto native void SetCameraEx(int cam, const vector mat[4]);
+proto native void GetCamera(int cam, out vector mat[4]);
+proto native void SetCameraVerticalFOV(int cam, float fovy);
+proto native void SetCameraFarPlane(int cam, float farplane);		//default 160000 units
+proto native void SetCameraNearPlane(int cam, float nearplane);	//default 5 units
+proto native void SetCameraType(int cam, CameraType type);
+proto native void SetCameraPostProcessEffect(int cam, int priority, PostProcessEffectType type, string materialPath);
+class TraceParam: Managed
+class TraceSphere: TraceParam
+class TraceBox: TraceParam
+class TraceOBB: TraceBox
+	proto native void SetPosition(vector pos);
+	proto native void Destroy();
+proto native void RemoveDecal(hDecal decal);
+proto native void FinalizeLandMarkDecal(hDecal lmDecal, bool addAlpha, float alphaDist);
+proto native void SetGlobalLandMarkParams(float minSegmentLength, float maxSegmentLength, float degAngle);
+proto volatile native void EndSound(HSOUND snd);
+	proto native void WriteBool(bool value);			//size: 1 byte
+	proto native void WriteInt(int value);				//size: 4 bytes
+	proto native void WriteFloat(float value);		//size: 4 bytes
+	proto native void WriteString(string value);		//size: n bytes (string length)
+	proto native void WriteVector(vector value);		//size: 12 bytes
+	proto native void WriteMatrixAsQuaternionVector(vecto
+	proto native void WriteIntAsByte(int value);		//write int in range <-128, 127>			size: 1 byte
+	proto native void WriteIntAsUByte(int value);	//write int in range <0, 255>				size: 1 byte
+	proto native void WriteIntAsHalf(int value);		//write int in range <-32768, 32768>	size: 2 bytes
+	proto native void WriteIntAsUHalf(int value);	//write int in range <0, 65535>			size: 2 bytes
+	proto native void WriteFloatAsByte(float value, float min, float max);	//					size: 1 byte
+	proto native void WriteFloatAsHalf(float value, float min, float max);	//					size: 2 bytes
+	proto void ReadMatrixAsQuaternionVector(vector mat[4]);
+proto native void MakeScreenshot(string name);
+proto native void SetStarsObserverTime(int year, int month, int day, int hour, int minute, float sec, int offsetSec);
+proto native void SetStarsObserverPosition(float latitudeDeg, float longitudeDeg);
+proto native void  SetRealStarAutoUpdate(bool update);
+proto native void SetNightLayerRotMatrix(vector mat[3]);
+proto native void SetStarsRotMatrix(vector mat[3]);
+	proto native void ResetParam(string propertyName);
+	proto void SetParamByIndex(int paramIndex, void value);
+	proto private native void Init(T init);
+	void Release()
+	void Link(T init)
+	void Serialize(Serializer s)
+	void Deserialize(Serializer s)
+class Serializer: Managed
+	protected void Serializer() {}
+void TestSave()
+void TestLoad()
+class FileSerializer: Serializer
+	void FileSerializer() {}
+	proto native void Close();
+	static proto native void Dialog(string caption, string text);
+	static proto void GetCwd(out string currentDir);
+class ScriptEditor: WBModuleDef
+class ResourceBrowser: WBModuleDef
+class WorldEditor: WBModuleDef
+	proto native void EndTerrainAction(string historyPointName = "");
+	proto native external void SetEntitySelection(IEntity ent);
+	proto native external void AddToEntitySelection(IEntity ent);
+	proto native void ClearEntitySelection();
+	proto native void RemoveFromEntitySelection(IEntity ent);
+	proto native void SetPropertySelection(string id);
+	private void WorldEditorAPI() {}
+	void OnKeyPressEvent(int key) {}
+	void OnKeyReleaseEvent(int key) {}
+	void OnEnterEvent() {}
+	void OnLeaveEvent() {}
+	void OnMouseMoveEvent(float x, float y) {}
+	void OnMouseDoubleClickEvent(float x, float y) {}
+	void OnMousePressEvent(float x, float y) {}
+	void OnMouseReleaseEvent(float x, float y) {}
+	void OnWheelEvent(int delta) {}
+	private void WorldEditorTool() {}
+	void Run() {}
+	void RunCommandline() {}
+	void Configure() {}
+	void ButtonAttribute(string label = "ScriptButton", bool focused = false)
+	void WorkbenchPluginAttribute(string name, string description = "", string shortcut = "", string icon = "", array<string> wbModules = null)
+class WorkbenchToolAttribute: WorkbenchPluginAttribute
+class IEntityComponentSource: BaseContainer
+class GenericComponent : Managed
+	proto native void Activate(IEntity owner);
+	proto native void Deactivate(IEntity owner);
+	protected void GenericComponent(IEntityComponentSource src, IEntity ent);	
+class ScriptComponent : GenericComponent
+	protected void EOnTouch(IEntity owner, int extra);
+	protected void EOnInit(IEntity owner, int extra);
+	protected void EOnExtra(IEntity owner, int extra);
+	protected void EOnNotVisible(IEntity owner, int extra);
+	protected void EOnVisible(IEntity owner, int extra);
+	protected void EOnFrame(IEntity owner, float timeSlice);
+	protected void EOnPostFrame(IEntity owner, int extra);
+	protected void EOnAnimEvent(IEntity owner, AnimEvent extra);
+	protected void EOnSoundEvent(IEntity owner, SoundEvent extra);
+	protected void EOnPostSimulate(IEntity owner, float timeslice);
+	protected void EOnSimulate(IEntity owner, float timeslice);
+	protected void EOnJointBreak(IEntity owner, int extra);
+	protected void EOnPhysicsMove(IEntity owner, int extra);
+	protected void EOnContact(IEntity owner, Contact extra);
+    protected void EOnActivate(IEntity owner);
+    protected void EOnDeactivate(IEntity owner);
+	protected void OnComponentInsert(IEntity owner, ScriptComponent other);
+	protected void OnComponentRemove(IEntity owner, ScriptComponent other);
+	protected void OnDelete(IEntity owner);
+	void SignalInput()
+class BaseSoundComponent : GenericComponent
+	proto native void SetSignalValueName(string signal, float value);
+	proto native void SetSignalValue(int index, float value);
+	proto native void Terminate(SoundHandle handle);
+	proto native void SetTransform(vector[] transf);
+	proto native void SetDebug(bool value);
+	proto native void Show(bool show);
+	proto native void InsertComponent(GenericComponent component);
+	proto native void RemoveComponent(GenericComponent component);
+	proto native void DeleteComponent(GenericComponent component);
+	void _WB_AfterWorldUpdate(float timeSlice) {};
+	proto native external void SetDiffuseColor(int color);
+	proto native external void SetRadius(float radius);
+	proto native external void SetConeAngle(float angle);
+	proto native external void SetCastShadow(bool enable);
+	proto native void Teleport(vector transform[4]);
+class RenderTarget: GenericEntity
+	void RenderTarget(IEntitySource src, IEntity parent)
+	void Init()
+	override void EOnInit(IEntity other, int extra) //!EntityEvent.INIT
+class ScriptCamera: GenericEntity
+	void ScriptCamera(IEntitySource src, IEntity parent)
+	override protected void EOnFrame(IEntity other, float timeSlice) //EntityEvent.FRAME
+	protected void FreeFly(float timeSlice)
+	protected void DebugInfo()
+class ScriptLight: GenericEntity
+	void ScriptLight(IEntitySource src, IEntity parent)
+class ScriptModel: GenericEntity
+	void ScriptModel(IEntitySource src, IEntity parent)
+class WorldsMenu: GenericEntity
+	void WorldsMenu(IEntitySource src, IEntity parent)
+	override void EOnPostFrame(IEntity other, int extra) //EntityEvent.POSTFRAME
+	void LoadWorlds()
+	void InsertWorldToList(string fileName)
+	void SetDebug(bool isDebug) {}
+	void OnEvent(EventType eventTypeId, Param params)
+	void OnAfterInit()
+	void OnUpdate(float timeslice) 
+	void OnGameEnd()
+	void ShowLoadingAnim()
+	void HideLoadingAnim()
+	void UpdateLoadingAnim(float timeslice, float progress)
+	proto native void RequestClose();
+	proto native void RequestReload();
+void GameLibInit()
+	void ActionManager(ActionManager parent);
+	proto external void AddActionListener(string actionName, InputTrigger trigger,  func callback);
+	proto native external void SetContextDebug(string contextName, bool bDebug);
+	proto native void SetParent(ActionManager parent);
+	proto native void SetDebug(bool bDebug);
+class InputManager: ActionManager
+	private void InputManager(ActionManager parent) {};
+	proto native external void ResetAction(string actionName);
+	proto native void SetCursorPosition(int x, int y);
+	protected void MenuManager();
+	void MenuBindAttribute(string menuItemName = "")
+class MenuBase: ScriptedWidgetEventHandler
+	proto native void Close();
+	void	OnMenuFocusGained() {}
+	void	OnMenuFocusLost() {}
+	void	OnMenuShow() {}
+	void	OnMenuHide() {}
+	void	OnMenuOpen() {}
+	void	OnMenuClose() {}
+	void	OnMenuInit() {}
+	void	OnMenuUpdate(float tDelta) {}
+	void	OnMenuItem(string menuItemName, bool changed, bool finished) {}
+	protected void MenuBase();
+class MessageBox: MenuBase
+	void Ok()
+class WorldEditorIngame: MenuBase
+	static void		OnChange(string variableName) {}
+	static void 	OnAnyChange() {}	
+	static void 	OnLoad() {}
+	static void 	OnSave() {}
+	static void 	OnReset() {}
+	static void 	OnRevert() {}
+	static void 	OnApply() {}
+	private void Settings() {}
+class GameSettings: Settings
+	override static void OnAnyChange() 
+class SettingsMenu: MenuBase
+	proto native void Save();	
+	proto native void Reset();
+	proto native void Revert();
+	proto native void Apply();
+	proto native void Back();
+class MyAsyncTest : TestBase
+	void Initialize() { ... }
+	void FinalizeB() { ... }
+	void Test(string suite, int timeoutS = 0, int timeoutMs = 0, int sortOrder = 0)
+	void Step(EStage stage = EStage.Main)
+class TestHarness : Managed
+	proto native static void Begin();
+	proto native static void End();
+class TestSuite : Managed
+	proto native void SetResult(TestResultBase res);
+	proto native void SetEnabled(bool val);
+	protected void OnInit();
+class TestBase : Managed
+	proto native void SetResult(TestResultBase res);
+	proto native void SetEnabled(bool val);
+class TestResultBase : Managed
+class TestBoolResult : TestResultBase
+	void TestBoolResult(bool val) { Value = val; }
+class MyHarness : TestHarness
+class MyTestSuite : TestSuite
+	void Prep()
+class MyAsyncTest : TestBase
+	void Set()
+		override void OnUpdate(float timeslice)
+		void Hello(int p1, string p2)
+		void Test()
+	void Test(MyObject obj)
+	proto native void Tick(float timeslice);
+	proto void Call(func fn, void param1 = NULL, void param2 = NULL, void param3 = NULL, void param4 = NULL, void param5 = NULL, void param6 = NULL, void param7 = NULL, void param8 = NULL, void param9 = NULL);
+	proto void CallByName(Class obj, string fnName , Param params = NULL);
+	proto void CallLater(func fn, int delay = 0, bool repeat = false, void param1 = NULL, void param2 = NULL, void param3 = NULL, void param4 = NULL, void param5 = NULL, void param6 = NULL, void param7 = NULL, void param8 = NULL, void param9 = NULL);	
+	proto void CallLaterByName(Class obj, string fnName, int delay = 0, bool repeat = false, Param params = NULL);	
+	proto void Remove(func fn);
+	proto void RemoveByName(Class obj, string fnName);
+	proto native void Clear();
+		void OnKilled()
+	void LogPlayerDeath(p)
+		void RemovePlayer(Player p)
+		void GameOver()
+	void OnPlayerSpaned(Player p)
+	proto void Invoke(void param1 = NULL, void param2 = NULL, void param3 = NULL, void param4 = NULL, void param5 = NULL, void param6 = NULL, void param7 = NULL, void param8 = NULL, void param9 = NULL);
+	proto native void Clear();
+	private void ScriptCaller();
+	proto void Init(func fn);	
+	proto void Invoke(void param1 = null, void param2 = null, void param3 = null, void param4 = null, void param5 = null, void param6 = null, void param7 = null, void param8 = null, void param9 = null);
+			void SomeMethod()
+		void Test()
+};class AIAgent : Managed
+	private void AIAgent();
+	proto native void SetKeepInIdle(bool enable);
+}class AIGroup : Managed
+	private void AIGroup();
+ 	proto native void AddAgent(notnull AIAgent agent);
+ 	proto native void RemoveAgent(notnull AIAgent agent);
+};class AIGroupBehaviour : Managed
+	private void AIGroupBehaviour();
+	void BehaviourGroupInfectedPackWaypointParams(vector pos, float radius)
+class BehaviourGroupInfectedPack : AIGroupBehaviour
+	proto native void SetWaypoints(array<ref BehaviourGroupInfectedPackWaypointParams> waypointParams, int waypointDefaultIndex, bool forwardDirection, bool loop);
+	proto native void SetWaypointsTraverseDirection(bool forwardDirection);
+	proto native void SetWaypointsLoop(bool loop);
+	proto native void SetCurrentWaypoint(int waypointIndex);
+class PGFilter : Managed
+	proto native void SetFlags(int includeFlags, int excludeFlags, int exclusiveFlags);
+	proto native void SetCost(PGAreaType areaType, float cost);
+class AIWorld : Managed
+	private void AIWorld();
+	proto native void DeleteGroup(notnull AIGroup group);
+class AIMessage: Managed
+class AIMessageTest : AIMessage
+	private void AIBehaviourHLData() {}
+	//void ParseConfig(ParamEntryPar param, AIWorld* world, AIAgentTemplate* agentTemplate) {};
+	void OnParseConfig();	
+	proto native void ParseBehaviourSlot(string name);
+	proto native void ParseAlertLevel(string name);
+	private void AIBehaviourHL() {}
+	void OnInit(){};
+	//private void AIBehaviourHL_script() {};
+	//void OnNoise(AINoiseInfo noise, EntityAI source){}
+	void OnDamage(float damage, EntityAI source){}
+	void OnDamageInflicted(){}
+	void OnAnimationEvent(int nameCrc){}
+	//void OnMessage(AIMessage message){}
+	//void OnBehaviourSwitched(AIBehaviour* behaviour){}
+	proto native void SetNextBehaviour(int BehaviourCrc);
+	proto native void SwitchToNextBehaviour();
+	static proto void RegAIBehaviour(string behname,typename behClass, typename behClassData);
+class AIBehaviourHLZombie2 : AIBehaviourHL
+	private void AIBehaviourHLZombie2() {}
+	override void OnInit()
+	override void Simulate (float timeDelta)
+	void ShowDebugInfo() 
+	//void OnMessage(AIMessage message)
+class AIBehaviourHLDataZombie2 : AIBehaviourHLData
+	private void AIBehaviourHLDataZombie2() {}
+	override void OnParseConfig()
+	void Load(string ammoType)
+	static void Init()
+	static void Cleanup()
+	void RegisterEvents()
+	void UnregisterEvents()
+	void OnActionEat()
+	void OnActionDrink()
+	void OnActionCookedSteak()
+	void OnActionFinishedShaveSelf()
+	void OnActionFinishedGutDeer()
+	void OnActionRestrain()
+	void OnActionBandageTarget()
+	void OnItemAttachedAtPlayer(EntityAI item, string slot_name)
+	void Event_OnPlayerIgnitedFireplace( EFireIgniteType ignite_type )
+	void Event_OnEntityKilled(EntityAI victim, EntityAI killer, EntityAI source, bool is_headshot)
+	void OnPlayerConnect(Man player)
+	void OnPlayerDisconnect(Man player)
+	void OnEntityHit(EntityAI source, Man target)
+	protected void OnPlayerToPlayerHit(Man shooter, Man target)
+	void OnEntityKilled(Object killer, EntityAI target)
+	protected void OnPlayerKilled(Man killer, EntityAI target)
+	protected void OnInfectedKilled(Man killer, EntityAI target)
+	void StatsEventData(string eventName)
+	void AddBool(string key, bool value)
+	void AddInt(string key, int value)
+	void AddFloat(string key, float value)
+	void AddString(string key, string value)
+	void AddVector(string key, vector value)
+	static proto native void SendPlayerDeath(StatsEventDeathData data);
+	static proto native void SendPlayerScoredKill(StatsEventScoredKillData data);
+	static proto native void SendPlayerDisconnected(StatsEventDisconnectedData data);
+	static proto native void SendPlayerMeasures(StatsEventMeasuresData data);
+	static proto native void SendPlayerSpawned(StatsEventSpawnedData data);
+	static proto native void SendEvent(StatsEventData data);
+	static void PlayerDeath(StatsEventDeathData data)
+	static void PlayerScoredKill(StatsEventScoredKillData data)
+	static void PlayerDisconnected(StatsEventDisconnectedData data)
+	static void PlayerMeasures(StatsEventMeasuresData data)
+	static void PlayerSpawned(StatsEventSpawnedData data)
+	protected void AnimCommandBase() {}
+	void OnActivate() {}
+	void OnDeactivate() {}
+	void PreAnimUpdate(float pDt) {}
+	void PrePhysUpdate(float pDt) {}
+	proto native void PreAnim_CallCommand(int pCommand, int pParamInt, float pParamFloat);
+	proto native void PreAnim_SetFloat(int pVar, float pFlt);
+	proto native void PreAnim_SetInt(int pVar, int pInt);
+	proto native void PreAnim_SetBool(int pVar, bool pBool);
+class AnimPhysOwnerState : PawnOwnerState
+	proto native void	SetCorrectionType(int value);
+	proto native void	SetPosition(vector value);
+	proto native void	GetPosition(out vector value);
+	proto native void	SetRotation(float value[4]);
+	proto native void	GetRotation(out float value[4]);
+	proto native void	SetParent(Object value);
+	proto native void	SetLinked(Object value);
+	proto native void	SetSpeed(vector value);
+	proto native void	GetSpeed(out vector value);
+	proto native void	SetCollisionLayer(int value);
+	proto native void	SetFlags(int value);
+	proto native void	SetCollisionOffset(vector value);
+	proto native void	SetStance(int value);
+	override event void	GetTransform(inout vector transform[4])
+class AnimPhysMove : PawnMove
+	proto native void	SetCorrectionType(int value);
+	proto native void	SetPosition(vector value);
+	proto native void	GetPosition(out vector value);
+	proto native void	SetRotation(float value[4]);
+	proto native void	GetRotation(out float value[4]);
+	proto native void	SetParent(Object value);
+	proto native void	SetLinked(Object value);
+	proto native void	SetParentTransform(vector transform[4]);
+	proto native void	GetParentTransform(out vector transform[4]);
+	override event void	GetTransform(inout vector transform[4])
+	private static const string REPORT_FILE_NAME_TEMPLATE = "$mission:Autotest_%1.xml";
+	private static const string DATETIME_FORMAT = "%1%2%3T%4%5%6Z";
+	private static string m_WorldName;
+	static void SetWorldName()
+	static void LogRPT(string message)
+	private static bool m_IsRunning;
+	private static bool m_IsDone;
+	static void Start()
+	static void Update(float deltaTime)
+class CustomResult : TestResultBase
+	void CustomResult(bool success, string text = "User provided error!", string kind = "Failure")
+class FooTestSuite : TestSuite
+	void FooSetup()
+	void FooFinish()
+class FooTest1 : TestBase
+	void Setup()
+	void Main()
+	void Cleanup()
+class FooTest2 : TestBase
+	void Setup()
+	void Main()
+	void Cleanup()
+class BarTestSuite : TestSuite
+	void A();
+class BarTest1 : TestBase
+	void Setup();
+	void Main()
+	void Cleanup();
+	void OnRPCIndex(int index)
+	void BillboardSet(string path)
+	protected void LoadConfig(string path)
+class BleedChanceData : Managed
+	private static const float BLOOD_HITPOINTS_UNIVERSAL = 100.0;
+	private static ref map<string, ref BleedChanceMaxMap> m_DamageTypeMap;
+	static void InitBleedChanceData()
+	static void InitMeleeChanceMap()
+	static void InitInfectedChanceMap()
+	static void Cleanup()
+	void Canvas(int size_x, int size_y)
+	void DrawPixel(int x, int y)
+	void PrintOut()
+	void SaveToFile(string filename)
+	private void EconomyLogCategories(
+	private void EconomyMapStrings();
+	private void EconomyOutputStrings();
+	private void CEApi() {}
+	proto native void ExportSpawnData();
+	proto native void ExportProxyData( vector vCenter = vector.Zero, float fRadius = 0 );
+	proto native void ExportClusterData();
+	proto native void ExportProxyProto();
+	proto native void MarkCloseProxy( float fRadius, bool bAllSelections );
+	proto native void RemoveCloseProxy();
+	proto native void ListCloseProxy( float fRadius );
+	proto native void TimeShift( float fShift );
+	proto native void OverrideLifeTime( float fLifeTime );
+	proto native void SpawnDE( string sEvName, vector vPos, float fAngle = -1 );
+	proto native void SpawnDEEx( string sEvName, vector vPos, float fAngle, int uFlags );
+	proto native void SpawnLoot( string sEvName, vector vPos, float fAngle, int iCount = 1, float fRange = 1 );
+	proto native void SpawnDynamic( vector vPos, bool bShowCylinders = true, float fDefaultDistance = 0 );
+	proto native void SpawnVehicles( vector vPos, bool bShowCylinders = false, float fDefaultDistance = 20 );
+	proto native void SpawnBuilding( vector vPos, bool bShowCylinders = false, float fDefaultDistance = 20 );
+	proto native void SpawnEntity( string sClassName, vector vPos, float fRange, int iCount );
+	proto native void SpawnRotation( string sClassName, vector vPos, float fRange, int iCount, int iFlags );
+	proto native void SpawnPerfTest( string sClassName, int iCount );
+	proto native void CleanMap();
+	proto native void EconomyLog( string sLogType );
+	proto native void EconomyMap( string sMapType );
+	proto native void EconomyOutput( string sOutputType, float fRange );
+	proto native void RadiusLifetimeIncrease( vector vCenter, float fRadius, float fValue );
+	proto native void RadiusLifetimeDecrease( vector vCenter, float fRadius, float fValue );
+	proto native void RadiusLifetimeReset( vector vCenter, float fRadius );
+		proto native void LootSetSpawnVolumeVisualisation(ESpawnVolumeVis mode);
+		proto native void LootToggleSpawnSetup(bool mode);
+		proto native void LootToggleVolumeEditing(bool mode);
+		proto native void LootRetraceGroupPoints();
+		proto native void LootExportGroup();
+		proto native void LootExportAllGroups();
+		proto native void LootExportMap();
+		proto native void LootExportClusters();
+		proto native void LootDepleteLifetime();
+		proto native void LootSetDamageToOne();
+		proto native void LootDepleteAndDamage();
+		proto native void InfectedToggleVisualisation(bool mode);
+		proto native void InfectedToggleZoneInfo(bool mode);
+		proto native void InfectedSpawn();
+		proto native void InfectedResetCleanup();
+		proto native void AnimalToggleVisualisation(bool mode);
+		proto native void AnimalSpawn();
+		proto native void AnimalAmbientSpawn();
+	proto native void ToggleVehicleAndWreckVisualisation(b
+	proto native void ToggleLootVisualisation(bool mode);
+	proto native void ToggleClusterVisualisation(bool mode);
+	proto native void ToggleDynamicEventStatus(bool mode);
+	proto native void ToggleDynamicEventVisualisation(bool mode);
+	proto native void DynamicEventSpawn();
+	proto native void DynamicEventExport();
+	proto native void ToggleOverallStats(bool mode);
+	proto native void PlatformStatTest();
+	proto native void LootToggleProxyEditing(bool mode);
+	proto native void OnUpdate();
+	private void CEItemProfile() {}
+	void InitServer()
+	void ITEM_DataBase()
+	void InitServer();
+class ITEM_GeneralData : ITEM_DataBase
+	override void InitServer()
+class ITEM_PlayerData : ITEM_DataBase
+	override void InitServer()
+class ITEM_ShockHandlingData : ITEM_DataBase
+	override void InitServer()
+class ITEM_StaminaData : ITEM_DataBase
+	override void InitServer()
+class ITEM_MovementData : ITEM_DataBase
+	override void InitServer()
+class ITEM_WorldData : ITEM_DataBase
+	override void InitServer()
+class ITEM_BaseBuildingData : ITEM_DataBase
+	override void InitServer()
+class ITEM_HologramData : ITEM_DataBase
+	override void InitServer()
+class ITEM_ConstructionData : ITEM_DataBase
+	override void InitServer()
+class ITEM_UIData : ITEM_DataBase
+	override void InitServer()
+class ITEM_HitIndicationData : ITEM_DataBase
+	override void InitServer()
+class ITEM_MapData : ITEM_DataBase
+	override void InitServer()
+class ITEM_DrowningData : ITEM_DataBase
+	override void InitServer()
+class ITEM_WeaponObstructionData : ITEM_DataBase
+	override void InitServer()
+class ITEM_VehicleData : ITEM_DataBase
+	override void I
+	private static string m_Path = "$mission:cfggameplay.json";
+	private static ref array<ref ITEM_DataBase> m_Items = new array<ref ITEM_DataBase>();
+	static void RegisterItem(ITEM_DataBase item)
+	private static void ValidateItems()
+	private static void InitData()
+	static void Output()
+	static void OnLoaded()
+	static void SyncDataSend(notnull Man player)
+	static void SyncDataSendEx(notnull PlayerIdentity identity)
+	static void OnRPC(Man player, ParamsReadContext ctx)
+	private static bool m_Initialized;
+	static void SyncDataSend(notnull PlayerIdentity identity)
+	static void OnRPC(ParamsReadContext ctx)
+	private static PlayerRestrictedAreaInstance GetClosestArea(vector point)
+	private static bool IsCylinderInAreaBox(notnull PlayerRestrictedAreaInstance area, vector point, float cylinderRadius = 0.25, float cylinderHeight = 1)
+	private static bool IsPointInAreaPolygon(notnull PlayerRestrictedAreaInstance area, vector point)
+	static void DrawBoxesDebug(bool draw)
+	static void DrawPolygonLinesDebug(bool draw)
+	void PRAShapeDataBase(array<ref array<float>> shapeDataArray)
+	void InitPRAShapeData(array<ref array<float>> shapeDataArray)
+class PRAShapeBoxData : PRAShapeDataBase
+	override void InitPRAShapeData(array<ref array<float>> shapeDataArray)
+	void Initialize()
+	static void ResetClientData()
+	static void AddPlayerBase( Man player )
+	static void SyncEvent_PreprocessPlayerList(SyncPlayerList player_list)
+	static void SyncEvent_OnRecievedPlayerList( SyncPlayerList player_list )
+	static void SyncEvent_OnEntityKilled( SyncEntityKillInfo entity_killed_data )
+	static void SyncEvent_OnPlayerIgnitedFireplace( EFireIgniteType igante_type )
+	static void LoadMods()
+	void ModStructure( int index, string path )
+	void LoadData()
+	void NotificationData(string icon, string title_text, string desc_text = "")
+	void NotificationRuntimeData(float time, NotificationData data, string detail_text)
+	void UpdateRemainingTime(float updateInterval)
+	void SetTime(float time);
+	private static const float UPDATE_INTERVAL_THRESHOLD = 1.0;
+	static void InitInstance()
+	static void CleanupInstance()
+	void NotificationSystem()
+	static void SendNotificationToPlayerExtended(Man pla
+	static void SendNotificationToPlayerIdentityExtended(PlayerIdentity player, float show_time, string title_text, string detail_text = "", string icon = "")
+	static void SendNotificationToPlayer(Man player, NotificationType type, float show_time, string detail_text = "")
+	static void SendNotificationToPlayerIdentity( PlayerIdentity player, NotificationType type, float show_time, string detail_text = "" )
+	static void AddNotification(NotificationType type, float show_time, string detail_text = "")
+	static void Update(float timeslice)
+	static void LoadNotificationData()
+	void NotificationUI()
+	void AddNotification( NotificationRuntimeData data )
+	void RemoveNotification( NotificationRuntimeData data )
+	void AddVoiceNotification(string player, string name)
+	void RemoveVoiceNotification( string player )
+	void ClearVoiceNotifications()
+	void UpdateTargetHeight()
+	void UpdateOffset()
+	void Update( float timeslice )

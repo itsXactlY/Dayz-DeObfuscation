@@ -1,0 +1,1000 @@
+[ERROR][%s] :: Action selection '%s' was not found in view or fire geometry level of model when parsing class Crew::%s
+[ERROR][%s] :: Proxy bone selection name ('proxyPos') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in position member ('getInPos') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in direction member ('getInDir') was not defined when parsing class Crew::%s
+[ERROR][%s] :: Get in position selection '%s' was not found in memory level of model when parsing class Crew::%s
+[ERROR][%s] :: Get in direction selection '%s' was not found in memory level of model when parsing class Crew::%s
+ [WARN][%s] :: Second driver found when parsing class Crew::%s , ignoring this value
+void rcMarkBoxArea(rcContext*, const float*, const float*, unsigned char, rcCompactHeightfield&)
+void rcMarkConvexPolyArea(rcContext*, const float*, int, float, float, unsigned char, rcCompactHeightfield&)
+void rcMarkCylinderArea(rcContext*, const float*, float, float, unsigned char, rcCompactHeightfield&)
+void rcFilterLowHangingWalkableObstacles(rcContext*, int, rcHeightfield&)
+void rcFilterLedgeSpans(rcContext*, int, int, const bool*, rcHeightfield&)
+void rcFilterWalkableLowHeightSpans(rcContext*, int, rcHeightfield&)
+void rcFilterWalkableLowHeightSpansExt(rcContext*, const int*, const unsigned int*, int, const bool*, rcHeightfield&)
+void rcRasterizeTriangle(rcContext*, const float*, const float*, const float*, unsigned char, short unsigned int, rcHeightfield&, const rcConfig&, int, int)
+void rcRasterizeDoorTriangles(rcContext*, const float*, int, unsigned char, short unsigned int, rcHeightfield&, int)
+void rcRasterizeTriangles(rcContext*, const float*, int, const int*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+void rcRasterizeTriangles(rcContext*, const float*, int, const short unsigned int*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+void rcRasterizeTriangles(rcContext*, const float*, const unsigned char*, int, rcHeightfield&, const rcConfig&, int)
+	proto native static void SoundDestroy(AudioHandle handle);
+class City: Name {
+class VegetationBroadleaf: NameIcon {
+class Enoch: CAWora
+class Static_rock_lava_boulder1: RockBase {};
+class Static_rock_lava_boulder2: RockBase {};
+class Static_rock_lava_boulder3: RockBase {};
+class Static_rock_lava_boulder4: RockBase {};
+class Static_rock_monolith5: RockBase {};
+class Static_rock_monolith5_snow: RockBase {};
+class Static_rock_spike4: RockBase {};
+class Static_rock_spike4_snow: RockBase {};
+class Static_rock_wallh7_long: RockBase {};
+class Static_rock_wallh7_long_snow: RockBase {};
+class Static_rock_wallh7_round: RockBase {};
+class Static_rock_wallh7_round_snow: RockBase {};
+class Static_rock_wallh7_tall: RockBase {};
+class Static_rock_wallh7_tall_snow: RockBase {};
+class Static_stone6_snow: RockBase {};
+class Static_stone6_snow_lc: RockBase {};
+class Static_stone7_snow: RockBase {};
+class Static_stone7_snow_lc: RockBase {};
+class Static_stone8_snow: RockBase {};
+class Static_stone8_snow_lc: RockBase {};
+class Static_stone9_snow: RockBase {};
+class Static_stone9_snow_lc: RockBase {};
+class Static_stone10_snow: RockBase {};
+class Static_stone10_snow_lc: RockBase {};
+class Static_stone11: RockBase {};
+class Static_stone11_lc: RockBase {};
+class Static_stone11_snow_kc: RockBase {};
+class Static_stone12: RockBase {};
+class Static_stone12_lc: RockBase {};
+class Static_stone12_snow_lc: RockBase {};
+class Static_stone13: RockBase {};
+class Static_stone13_lc: RockBase {};
+class Static_stone13_snow_k: RockBase {};
+class Static_stone14_lava: RockBase {};
+class Static_stone14_lava_lc: RockBase {};
+class Static_stone15_lava: RockBase {};
+class Static_stone15_lava_lc: RockBase {};
+class Static_stones_erosion2: RockBase {};
+class Static_stones_lava_cluster1: RockBase {};
+class Static_stones_lava_cluster2: RockBase {};class StaticObj_WaterSpring_Sakhal : Building
+class BushSoft_b_betulaHumilis_1s_winter: BushSoft
+class BushSoft_b_betulaNana_1s_winter: BushSoft
+class BushSoft_b_PiceaAbies_1f_winter: BushSoft
+class BushSoft_b_PiceaAbies_1f_dark: BushSoft
+class BushSoft_b_PiceaAbies_1f_frozen: BushSoft
+class BushSoft_b_betulaHumilis_1s_latefall: BushSoft
+class BushSoft_b_betulaNana_1s_latefall: BushSoft
+class BushHard_b_PinusPumila_1s: BushHard
+class BushHard_b_PinusPumila_1s_winter: BushHard
+class BushHard_b_caraganaArborescens_2s_leafless: BushHard
+class BushHard_b_caraganaArborescens_2s_winter: BushHard
+class BushHard_b_BetulaPendula_1f_winter: BushHard
+class BushHard_b_PiceaAbies_1fb_winter: BushHard
+class BushHard_b_PiceaAbies_1fb_frozen: BushHard
+class BushHard_t_PiceaAbies_1s_winter: BushHard
+class BushHard_t_PiceaAbies_1sb_winter: BushHard
+class BushHard_b_BetulaPendula_1f_latefall: BushHard
+class BushHard_b_PiceaAbies_1fb_dark: BushHard
+class BushHard_t_PiceaAbies_1s_dark: BushHard
+class BushHard_t_PiceaAbies_1s_frozen: BushHard
+class BushHard_t_PiceaAbies_1sb_dark: BushHard
+class BushHard_t_PiceaAbies_1sb_frozen: BushHard
+class TreeSoft_Winter: TreeSoft
+class TreeHard_Winter: TreeHard
+class TreeSoft_t_BetulaPendula_1f_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_1fb_winter: TreeSoft_Winter
+class TreeSoft_t_BetulaPendula_1s_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2f_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fb_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fc_winter: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2w_winter: TreeSoft_Winter
+class TreeSoft_t_BetulaPendulaE_2w_winter: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_1f_winter: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_1f_frozen: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_2sb_winter: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_2sb_frozen: TreeSoft_Winter
+class TreeSoft_t_BetulaPendula_1f_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_1fb_latefall: TreeSoft_Winter
+class TreeSoft_t_BetulaPendula_1s_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2f_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fb_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2fc_latefall: TreeSoft_BetulaPendula_Base
+class TreeSoft_t_BetulaPendula_2w_latefall: TreeSoft_Winter
+class TreeSoft_t_BetulaPendulaE_2w_latefall: TreeSoft_Winter
+class TreeSoft_t_populusAlba_1f_latefall: TreeSoft
+class TreeSoft_t_PiceaAbies_1f_dark: TreeSoft_Winter
+class TreeSoft_t_PiceaAbies_2sb_dark: TreeSoft_Winter
+class TreeHard_t_BetulaPendula_2s_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3s_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3f_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fb_winter: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fc_winter: TreeHard_BetulaPendula
+class TreeHard_t_piceaabies_2d_winter: TreeHard
+class TreeHard_t_PiceaAbies_2f_winter: TreeHard
+class TreeHard_t_PiceaAbies_2f_frozen: TreeHard
+class TreeHard_t_PiceaAbies_2fb_winter: TreeHard
+class TreeHard_t_PiceaAbies_2fb_frozen: TreeHard
+class TreeHard_t_PiceaAbies_2s_winter: TreeHard_Winter
+class TreeHard_t_PiceaAbies_2s_frozen: TreeHard_Winter
+class TreeHard_t_piceaabies_3d_winter: TreeHard
+class TreeHard_t_sorbus_2s_winter: TreeHard_Winter
+class TreeHard_t_BetulaPendula_2s_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3s_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3f_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fb_latefall: TreeHard_BetulaPendula
+class TreeHard_t_BetulaPendula_3fc_latefall: TreeHard_BetulaPendula
+class TreeHard_t_populusAlba_2s_latefall: TreeHard
+class TreeHard_t_populusAlba_3s_latefall: TreeHard
+class TreeHard_t_populusNigra_3s_latefall: TreeHard
+class TreeHard_t_sorbus_2s_leafless: TreeHard_Winter
+class TreeHard_t_piceaabies_2d_dark: TreeHard
+class TreeHard_t_PiceaAbies_2f_dark: TreeHard
+class TreeHard_t_PiceaAbies_2fb_dark: TreeHard
+class TreeHard_t_PiceaAbies_2s_dark: TreeHard_Winter
+class TreeHard_t_piceaabies_3d_dark: TreeHard
+void defaultFnMB(inout vector pMat[4])
+void defaultBoneFunctionMax(inout vector pMat[4])
+void rotatePelvis(inout vector pMat[4])
+void invertXPosEntityPos(inout vector pMat[4])
+	void OnUpdate(float timeslice)
+	void OnEvent(EventType eventTypeId, Param params)
+	private void DbgUI() {}
+	static proto native void DoUnitTest(); ///< Creates all possible DbgUI widgets. Just for the testing purposes.
+	static proto native void Text(string label);
+	static proto native void ColoredText(int color, string label);
+	static proto void Check(string label, out bool checked);
+	static proto void Combo(string label, out int selection, TStringArray elems);
+	static proto void List(string label, out int selection, TStringArray elems);
+	static proto void SliderFloat(string label, out float value, float min, float max, int pxWidth = 150);
+	static proto native void Spacer(int height);
+	static proto native void Panel(string label, int width, int height, int color = 0xaa555555);
+	static proto void InputText(string txt, out string value, int pxWidth = 150);
+	static proto void InputInt(string txt, out int value, int pxWidth = 150);
+	static proto void InputFloat(string txt, out float value, int pxWidth = 150);
+	static proto native void PlotLive(string label, int sizeX, int sizeY, float val, int timeStep = 100, int historySize = 30, int color = 0xFFFFFFFF);
+	static proto native void SameLine();
+	static proto native void SameSpot();
+	static proto native void PushID_Int(int int_id);
+	static proto native void PushID_Str(string str_id);
+	static proto native void PopID();
+	static proto void BeginCleanupScope();
+    static proto native void EndCleanupScope();
+	static proto native void Begin(string windowTitle, float x = 0, float y = 0);
+    static proto native void End();
+proto void SetParticleParm(notnull IEntity ent, int emitor, EmitorParam parameter, void value);
+proto void GetParticleParm(notnull IEntity ent, int emitor, EmitorParam parameter, out void value);
+proto void GetParticleParmOriginal(notnull IEntity ent, int emitor, EmitorParam parameter, out void value);
+proto native void ResetParticlePosition(notnull IEntity ent);
+proto native void RestartParticle(notnull IEntity ent);
+    void Param10(T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9, T10 p10)
+	private void Math2D();
+class VRDevice : Managed
+	proto native void 								RecenterHeadTracking();
+	proto native void 								SetScale(float scale);
+	proto external void 						GetEyeFOV(VREye eye, out float leftTan, out float rightTan, out float upTan, out float downTan);
+class VRDevice_PS4 : VRDevice
+	proto native void Set2D(bool enabled);
+	proto native void SetRecenterHeadFlags(PSVrHeadRecenterFlagsEnum flags);
+	proto native void SetMinOutputColor(int color);
+	proto native void SetEyeFOV(VREye eye, float leftTan, float rightTan, float upTan, float downTan);
+	proto native void ResetToDeviceFOV(VREye eye);
+	proto native void SetOversamplingFactor(float factor);
+class Oculus : VRDevice
+	private void Math3D() {}
+	proto static void YawPitchRollMatrix(vector ang, out vector mat[3]);
+	proto static void DirectionAndUpMatrix(vector dir, vector up, out vector mat[4]);
+	proto static void MatrixMultiply4(vector mat0[4], vector mat1[4], out vector res[4]);
+	proto static void MatrixMultiply3(vector mat0[3], vector mat1[3], out vector res[3]);
+	proto static void MatrixInvMultiply4(vector mat0[4], vector mat1[4], out vector res[4]);
+	proto static void MatrixInvMultiply3(vector mat0[3], vector mat1[3], out vector res[3]);
+	proto static void MatrixInverse4(vector mat[4]);
+	proto static void MatrixInverse3(vector mat[3]);
+	proto static void MatrixOrthogonalize4(vector mat[4]);
+	proto static void MatrixOrthogonalize3(vector mat[3]);
+	static void MatrixIdentity4(out vector mat[4])
+	static void MatrixIdentity3(out vector mat[3])
+	static void ScaleMatrix(float scale, out vector mat[3])
+	static void QuatIdentity(out float q[4])
+	static void QuatCopy(float s[4], out float d[4])
+	proto static void MatrixToQuat(vector mat[3], out float d[4]);
+	proto static void QuatToMatrix(float q[4], out vector mat[3]);
+	static proto native void Dialog(string caption, string text);
+	static proto void GetCwd(out string currentDir);
+class ScriptEditor: WBModuleDef
+class ResourceBrowser: WBModuleDef
+class WorldEditor: WBModuleDef
+	proto native void EndTerrainAction(string historyPointName = "");
+	proto native external void SetEntitySelection(IEntity ent);
+	proto native external void AddToEntitySelection(IEntity ent);
+	proto native void ClearEntitySelection();
+	proto native void RemoveFromEntitySelection(IEntity ent);
+	proto native void SetPropertySelection(string id);
+	private void WorldEditorAPI() {}
+	void OnKeyPressEvent(int key) {}
+	void OnKeyReleaseEvent(int key) {}
+	void OnEnterEvent() {}
+	void OnLeaveEvent() {}
+	void OnMouseMoveEvent(float x, float y) {}
+	void OnMouseDoubleClickEvent(float x, float y) {}
+	void OnMousePressEvent(float x, float y) {}
+	void OnMouseReleaseEvent(float x, float y) {}
+	void OnWheelEvent(int delta) {}
+	private void WorldEditorTool() {}
+	void Run() {}
+	void RunCommandline() {}
+	void Configure() {}
+	void ButtonAttribute(string label = "ScriptButton", bool focused = false)
+	void WorkbenchPluginAttribute(string name, string description = "", string shortcut = "", string icon = "", array<string> wbModules = null)
+class WorkbenchToolAttribute: WorkbenchPluginAttribute
+	static proto void SetModule(EnProfilerModule module, bool sessionReset = true);
+	static proto void SetInterval(int interval, bool sessionReset = true);
+	static proto void SetTimeResolution(int resolution);
+	static proto void EnableAverage(bool enable);
+	static proto void Dump();
+	static proto void GetTimePerClass(notnull out array<ref EnProfilerTimeClassPair> outArr, int count = int.MAX);
+	static proto void GetAllocationsPerClass(notnull out array<ref EnProfilerCountClassPair> outArr, int count = int.MAX);
+	static proto void GetInstancesPerClass(notnull out array<ref EnProfilerCountClassPair> outArr, int count = int.MAX);
+	static proto void GetTimePerFunc(notnull out array<ref EnProfilerTimeFuncPair> outArr, int count = int.MAX);
+	static proto void GetCountPerFunc(notnull out array<ref EnProfilerCountFuncPair> outArr, int count = int.MAX);
+	void Serialize(Serializer s)
+	void Deserialize(Serializer s)
+class Serializer: Managed
+	protected void Serializer() {}
+void TestSave()
+void TestLoad()
+class FileSerializer: Serializer
+	void FileSerializer() {}
+	proto native void Close();
+proto native void ClearKey(KeyCode key);
+proto void GetMousePos(out int x, out int y);
+proto void GetScreenSize(out int x, out int y);
+proto native void EndParse(ParseHandle file);
+proto void		CloseFile(FileHandle file);
+proto void		FPrint(FileHandle file, void var);
+proto void		FPrintln(FileHandle file, void var);
+proto native void CloseFindFile(FindFileHandle handle);
+	private void EnumTools();
+	proto native void Clear();
+	proto native void Remove(int index);
+	proto native void Swap(set<T> other);
+	void InsertSet(set<T> other)
+	void RemoveItem(T value)
+	void RemoveItems(set<T> other)
+	void Debug()
+	proto native void Clear();
+	proto void Set(TKey key, TValue value);
+	proto void Remove(TKey key);
+	proto void RemoveElement(int i);
+//proto native void SchedulePreload(vector pos, float radius);
+proto native void SetListenerCamera(int camera);
+proto native void SetCamera(int cam, vector origin, vector angle);
+proto native void SetCameraEx(int cam, const vector mat[4]);
+proto native void GetCamera(int cam, out vector mat[4]);
+proto native void SetCameraVerticalFOV(int cam, float fovy);
+proto native void SetCameraFarPlane(int cam, float farplane);		//default 160000 units
+proto native void SetCameraNearPlane(int cam, float nearplane);	//default 5 units
+proto native void SetCameraType(int cam, CameraType type);
+proto native void SetCameraPostProcessEffect(int cam, int priority, PostProcessEffectType type, string materialPath);
+class TraceParam: Managed
+class TraceSphere: TraceParam
+class TraceBox: TraceParam
+class TraceOBB: TraceBox
+	proto native void SetPosition(vector pos);
+	proto native void Destroy();
+proto native void RemoveDecal(hDecal decal);
+proto native void FinalizeLandMarkDecal(hDecal lmDecal, bool addAlpha, float alphaDist);
+proto native void SetGlobalLandMarkParams(float minSegmentLength, float maxSegmentLength, float degAngle);
+class LBNoBuildZonesPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void OnHide() {
+	override void RegisterAllLinkedVars() {
+	override void InitWidgets() {
+	void AddZonesToList() {
+	void AddMarkers() {
+	override void OnUpdateFrame() {
+	void CalcNearestZoneToCursor() {
+	void StartPlacing() {
+	void StopPlacing() {
+	void TogglePlacing() {
+class LBGroupConfigAdminPage : LBAdmin_Menu_Page {
+	override void OnPageShown() {
+	override void RegisterAllLinkedVars() {
+class LBGroupMiscConfigAdminPage : LBAdmin_Menu_Page {
+	override void OnPageShown() {
+	override void RegisterAllLinkedVars() {
+class LBTerritoryAdminPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void RegisterAllLinkedVars() {
+	void UpdateRefreshTime() {
+	void UpdateUptimeTime() {
+class LBPagesMuteAdmin : LBAdmin_Menu_Page {
+	override void RegisterAllLinkedVars() {
+	override void OnShow() {
+	void FillOnlinePlayers() {
+	void MutePlayer(string steamid = "") {
+	void UnmuteSelectedPlayer() {
+class LBSafezoneAdminPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void RegisterAllLinkedVars() {
+class LBTimeoutsAdminPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void RegisterAllLinkedVars() {
+class LBPagesConfigAdmin : LBAdmin_Menu_Page {
+	override void OnPageShown() {
+	override void RegisterAllLinkedVars() {
+class LBMarkerConfigAdminPage : LBAdmin_Menu_Page {
+	override void OnPageShown() {
+	override void RegisterAllLinkedVars() {
+	void LoadMarkerConfigTypes() {
+	void LoadDeathIcon() {
+	void OnIconSelected(string value) {
+class LBChatAdminPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void RegisterAllLinkedVars() {
+	override void OnRPC(Object target, int rpc_type, ParamsReadContext ctx) {
+class LBLevelsAdminPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void RegisterAllLinkedVars() {
+class LBGroupAdminPage : LBAdmin_Menu_Page {
+	override void OnShow() {
+	override void OnHide() {
+	override void RegisterAllLinkedVars() {
+	override void OnRPC(Object target, int rpc_type, ParamsReadContext ctx) {
+	void OnFlagpolesReceived(ParamsReadContext ctx) {
+	void ShowTerritorryCheckbox() {
+	void OnAllGroupsReceived(ParamsReadContext ctx) {
+	void OnAllGroupsReceivedAdd(ParamsReadContext ctx) {
+	void ClearGroups() {
+	void OnGroupUpdateReceived(ParamsReadContext ctx) {
+	void SetFlagPositions(array<ref Param2<ref vector, string>> arr) {
+	void OnGroupLoad() {
+	void DisplayGroupMarkers(LBGroup grp) {
+	void DisplayFlagPositions() {
+	void OnGroupDeleteReceived(ParamsReadContext ctx) {
+	void ClearMarkers() {
+	void MarkMemberPositions(LBGroup grp) {
+	void ChangeGroupName(LBGroup grp) {
+	void OnMemberSelected(LBGroupMember member) {
+	void AddGroupLevel(int level_) {
+	void DeleteSelectedGroup() {
+	void ApplyChatColorChange() {
+	void CopySelectedUserData() {
+	void SendSelectedGroupMemberRPC(int rpc_type) {
+	void RequestGroups() {
+}class MapMarkerWrapperCircle : MapMarkerWrapper {
+	void Init(vector center, float radius_, int color, bool striked) {
+	override void Update(float mapScale, vector mapPos, MapWidget mapWidget, float xOffset, float yOffset) {
+	void CalcCircleIntersections(int circumference, float part) {
+	void DrawStrikeLines(float mapToScreen, MapWidget mapWidget, float xOffset, float yOffset, int color) {
+	void CalcAllCircleIntersections() {
+	void CalculateInsideOtherCircle() {
+	void SetOtherCircles(array<MapMarkerWrapperCircle> circles) {
+class MapMarkerWrapperObject : MapMarkerWrapper {
+	void Init(Object obj2, int color, string theicon, string thename, Widget iconPane) {
+	override void Update(float mapScale, vector mapPos, MapWidget mapWidget, float xOffset, float yOffset) {
+	override void UpdateVisibility(bool isMap) {
+	void CreateEntries(LBGroupUI groupUI) {
+	void AddSpacer(string name, LBMarkerType type) {
+	void AddEntry(LBMarker marker, LBGroupUI groupUI) {
+	void ClearAndDeleteEntries() {
+	void UpdateEntries(LBGroupUI groupUI, bool force = false) {
+}class MapMarkerWrapperLBMarker : MapMarkerWrapper {
+	void Init(LBMarker marker2, Widget iconPane) {
+	void ReInit() {
+	void SetDragable(bool drag_) {
+	override void Update(float mapScale, vector mapPos, MapWidget mapWidget, float xOffset, float yOffset) {
+	override void UpdateVisibility(bool isMap) {
+	void LBMapMarkerManager(MapWidget mapWidget) {
+	void UpdateOffsets() {
+	void SetDragable(bool drag) {
+	void UpdateFrame(bool force = false) {
+	void UpdateWrapperChanged(float scale, vector pos, bool force) {
+	void UpdateCircles(out bool updateCircles) {
+	void UpdateWrapperOptional(float scale, vector pos, bool updateCircles) {
+	void OnStreamerModeChange(bool enabled) {
+	void UpdateSlowVisibility() {
+	void ClearMarkers() {
+	private void AddMarker(MapMarkerWrapper wrapper) {
+	void RemoveLayer(int layer) {
+	void CutAllCircles() {
+	void RemoveMarker(LBMarker marker) {
+	void OnDragStart(Widget w) {
+	void OnDragStop(Widget w) {
+	void MoveToPoint(vector pos, float scale) {
+	void Delete() {
+	void InitSpacer(Widget parent, string namee, LBMarkerType type_) {
+	void InitMarker(Widget parent, LBMarker mmarker, LBGroupUI groupui) {
+	void InitMarker(LBMarker mmarker) {
+	void UpdateWidget() {
+	void Show(bool b) {
+	void Expand() {
+	void Collapse() {
+	void SetDrawCanvas(CanvasWidget canvas) {
+	void SetLayer(int layer_) {
+	void Update(float mapScale, vector mapPos, MapWidget mapWidget, float xOffset, float yOffset) {
+	void UpdateVisibility(bool isMap) {
+	static void Delete() {
+	void LBTextLengthCalculator() {
+	void ChatLine(Widget root_widget) {
+	void OnChatMenuOpened() {
+	void OnChatMenuClosed() {
+	override void Set(ChatMessageEventParams params) {
+	void SetBackground() {
+	override void SetColour(int colour) {
+	void Chat() {
+	override void Init(Widget root_widget) {
+	void ReinitializeLater() {
+	void Reinitialize() {
+	void OnChatMenuOpened() {
+	void OnChatMenuClosed() {
+	void AddLBChat(int channel, string channelName, string name, string message, string extra, string prefix, int prefixColor, string groupPrefix, int channelColor, int groupPrefixColor, bool changeGroupTagColor) {
+	void UpdatePosition() {
+	void UpdateChatVisibility() {
+	override void Add(ChatMessageEventParams params) {
+	void OnMouseWheel(int count) {
+	void ResetChatScroll() {
+	void ResetTextSizes() {
+	override void AddInternal(ChatMessageEventParams params) {
+	void SetNextPrefix(string prefix, int prefixColor, string groupPrefix, int channelColor, int groupPrefixColor, bool changeGroupTagColor) {
+class ChatEventHandler : ScriptedWidgetEventHandler {
+	void ChatInputMenu() {
+	void InitEventHandler() {
+	override void OnShow() {
+	override void OnHide() {
+	override void UpdateChannel() {
+#endifclass LBClientSettingsPage : LBGroupPage {
+	override void InitMainWidget() {
+	override void OnShow() {
+	void ReloadButtonVisibility() {
+	void ReloadAll(bool force = false) {
+	void ReloadChatVisibility() {
+	void OnChannelSelected() {
+	void OnChannelVisibilityChangeButtonClicked() {
+	void ReloadGPS() {
+	void ReloadPlayerMarkerPos() {
+	void ReloadPlayerMarkerStyle() {
+	void ReloadStyles() {
+	void ReloadColors(bool force = false) {
+	void ReloadPositions(bool force = false) {
+	void ReloadTextSizes() {
+	void ReloadPingSizes() {
+	void ReloadPlayerSizes() {
+	void ReloadPingMarkers(bool force = false) {
+	void ReloadPlayerMarkers(bool force = false) {
+	void PingIconChanged() {
+	void PlayerIconChanged() {
+	override void OnHide() {
+	override void OnUpdateFrame() {
+	void LoadColor(int color) {
+	void SetCurrentColor() {
+	void ResetToDefaultColor() {
+	void ResetToDefaultPosition() {
+	void LoadPosition() {
+	void OnPingSizeChanged() {
+	void OnPlayerSizeChanged() {
+	void OnChatSizeChanged() {
+	void OnIconPreviewPositionChange() {
+	void SetInvertBoxes(int index) {
+	void SaveInvertBoxes() {
+class LBClanTagColorDialog : ScriptedWidgetEventHandler {
+	void Init(LBGroupUI parentUI) {
+	void ShowPopup() {
+	void HidePopup() {
+	void UpdatePreview() {
+	void SendChangeRequest() {
+}class LBMarkerListPage : LBGroupPage {
+	void LBMarkerListPage(LBPageSettingsType type_) {
+	void OnStreamerModeChange(bool enabled) {
+	override void InitMainWidget() {
+	override void OnUpdateSlow() {
+	override void OnMarkerChanged() {
+	override void OnShow() {
+	void UpdateMarkerListManager() {
+}class LBGroupManagePage : LBGroupPage {
+	void LBGroupManagePage(LBPageSettingsType type_) {
+	void OnStreamerModeChange(bool enabled) {
+	override void OnShow() {
+	override void OnUpdateSlow() {
+	void UgradeGroup() {
+	void LeaveCurrentGroup() {
+	override void OnSizeChange() {
+	void UpdateInviteButton() {
+	void UpdateGroupButtons() {
+	override void OnGroupChanged() {
+	void FillOnlinePlayersList() {
+	void FillMembersList() {
+	void PromoteSelectedPlayer() {
+	void DemoteSelectedPlayer() {
+	void KickSelectedPlayer() {
+	void JoinSubGroup(int index) {
+	void MovePlayerToSubgroup(int markerUid, int index) {
+	override void OnUpdateFrame() {
+	override void InitMainWidget() {
+	void CreatePlayerListManager() {
+	void LBGroupPage(LBPageSettingsType type_) {
+	void UpdateButtonDisplay() {
+	void OnGroupChanged() {
+	void InitMainWidget() {
+	void OnShow() {
+	void OnHide() {
+	void OnUpdateFrame() {
+	void OnRPC(int type, ParamsReadContext ctx);
+	void AddMarkers(LBMapMarkerManager mapMarkerManager) {}
+	void OnUpdateSlow() {}
+	void OnMarkerChanged() {}
+	void OnSizeChange() {}
+class LBGroupManagerPlayerList : ScriptedWidgetEventHandler {
+	void LBGroupManagerPlayerList(Widget mainWidget_, LBGroupManagePage parent_) {
+	void SetSelected(int index) {
+	void ClearEntries() {
+	void AddEntry(string groupName) {
+	void SetEntry(string groupName, int index) {
+	void RemoveLastEntries(int start) {
+	void SetEntry(LBGroupMember memberMarker, int index) {
+	void EnsureSelectedVisible() {
+	void AddEntry(LBGroupMember memberMarker) {
+	void OnSizeChange() {
+}class LBInfoPage : LBGroupPage {
+	void LBInfoPage(LBPageSettingsType type_) {
+	override void InitMainWidget() {
+	override void OnUpdateSlow() {
+	override void OnUpdateFrame() {
+	void SetCoordinatesField() {
+	void SetButtonContent() {
+	void UpdateSurvivorCount() {
+	void UpdateInfoCounter() {
+	void OnStreamerModeChange(bool enabled) {
+	void UpdateIngameTime() {
+	void UpdateServerTime() {
+	void Init(LBGroupUI parentUI) {
+	void OnUpdateFrame() {
+	void OnUpdateSlow() {
+	void UpdateShowRadiusCreation() {
+	void ShowRadiusCreation(bool show) {
+	void UpdateMarkerRadiusText() {
+	void SetIconColor() {
+	void SetRadiusColor() {
+	void OnGroupChanged() {
+	void AddMarkerButtonClicked() {
+	void AddMarker(vector pos, LBMarkerType type, string name, string icon, int colorR, int colorG, int 
+	void UpdateIconImage() {
+	void ShowPopup(int x, int y, bool deleteMode, LBMarker marker) {
+	void OnShow() {
+	void FillAvailableMarkerTypes() {
+	void DeleteMarkerUnderMouse() {
+	void RequestMarkerDelete(LBMarker marker) {
+}class LBGroupCreatePage : LBGroupPage {
+	void SetInviteButton(bool show, string group) {
+	override void InitMainWidget() {
+	void SendCreateGroupRPC(string name, string tag) {
+}class LBCustomPanelPage : LBGroupPage {
+	override void InitMainWidget() {
+}class LBGroupUI : LBMenuBase {
+	void LBGroupUI() {
+	void OnStreamerModeChange(bool enabled) {
+	void OnColorChange() {
+	void StartUIPositionTimer() {
+	void UpdateUIPosition() {
+	override void OnInit() {
+	void OnBuildZonesChange() {
+	override void OnRPC(Object target, int rpc_type, ParamsReadContext ctx) {
+	void SetServerLogo() {
+	void CreateMapLegend() {
+	void OpenGroupPage() {
+	void InitPages() {
+	void InitPage(LBGroupPage page) {
+	void CreateCustomPages() {
+	void ReloadCurrentPage() {
+	void ChangePageTo(LBGroupPage page) {
+	void OnMarkerChanged() {
+	void OnGroupChanged() {
+	override void Update(float timeslice) {
+	override void OnShow() {
+	void UpdateButtonVisibility() {
+	override void OnHide() {
+	void UpdateAll() {
+	void AddMapMarker() {
+	void AddMapMarker(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr, bool addPlayer) {
+	void AddNoBuildZones(LBMapMarkerManager mapMarkerMgr) {
+	void CheckNewMarkers() {
+	void UpdateMarkerListLater() {
+	void AddCustomMarkersOnMapOpen() {
+	void AddCustomMarkersOnMapOpen(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	void AddCustomMarkers() {
+	void AddCustomMarkers(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	void AddPlayerMarker(LBMapMarkerManager mapMarkerMgr) {
+	void CenterMapOnPlayer() {
+	void AddGroupMarkers(LBMapMarkerManager mapMarkerMgr) {
+	void OnSizeChange() {
+	void LBCompassHud() {
+	void InitWidgets() {
+	void Show(bool b) {
+	void UpdateHud() {
+	void UpdateCanEnableCompass() {
+	void OnColorChanged() {
+class LB_GPSHud : Managed {
+	void Init() {
+	void InitDisplays() {
+	void OnColorChanged() {
+	void UpdateSpeed() {
+	void UpdateCoords() {
+	void OnSizeChange() {
+	void SetSize(float width, float height) {
+	void OnPositionChange() {
+	void UpdatePosition() {
+	void CheckNewMarkers(bool force = false) {
+	void UpdateHud(float 
+	void Show(bool show) {
+	void UpdateGPSItemVisibility() {
+	void OnGroupChanged() {
+	void Update() {
+	static void Delete() {
+	void LBPlayerList() {
+	void OnLayoutChange() {
+	void OnColorChange() {
+	void OnPositionChange() {
+	void UpdatePosition() {
+	void UpdateVisibility(float timeslice) {
+	void InitWidgets() {
+	void OnGroupChanged() {
+	void CreateEntries() {
+	void ClearAndDeleteEntries() {
+	void UpdateEntries(bool force = false) {
+	void UpdateDistances() {
+	void Init(LBPlayerList parent, LBGroupMember groupMember) {
+	void InitMember(LBGroupMember groupMember) {
+	void UpdateWidget() {
+	void UpdateDistance() {
+	void Show(bool b) {
+class LB_RPC_AG_Client : LB_RPCHandler {
+	void LB_RPC_AG_Client() {
+	void OnMiscConfigReceived() {
+	void OnGroupConfigReceived() {
+	void AddMarkerRPC() {
+	void OnGroupTagColorChanged() {
+	void AddClientMarkerFromServer(string name, string icon, vector position, int color, string creatorId = "Server") {
+	void StaticMarkersReceivedRPC() {
+	void MarkerRPC() {
+	void StaticMarkerAddedRPC() {
+	void StaticMarkerRemovedRPC() {
+	void StaticMarkerChangedRPC() {
+	void OnGroupRPC() {
+	void OnChatMessage() {
+	void OnMuteParamReceived() {
+	void OnChannelConfigReceived() {
+	void OnServerTimeSync() {
+	void OnForcePlacerListUpdate() {
+	override void AddCustomMarkersOnMapOpen() {
+	override void AddCustomMarkersOnMapOpen(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	override void AddCustomMarkers(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	override void AddCustomMarkersOnMapOpen() {
+	void AddCustomMarkersOnMapOpen(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	void AddCustomMarkers(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	void CustomNDShowAllMissions(MapWidget mapWidget_, LBMapMarkerManager mapMarkerMgr) {
+	override void AddCustomMarkersOnMapOpen() {
+	void OnChatMessage(PlayerIdentity sender, int originalChannelId, ChannelCfg cfg, PrefixGroup playerPrefix, string message, string uncensoredMessage);
+	override void OnChatMessage(PlayerIdentity sender, int originalChannelId, ChannelCfg cfg, PrefixGroup playerPrefix, string message, string uncensoredMessage) {
+	void OnChatCommand(PlayerIdentity sender, string cmd, TStringArray args);
+	override void OnChatCommand(PlayerIdentity sender, string cmd, TStringArray args) {
+	static void SendSimpleChatMessage(PlayerIdentity player, string message, bool global = false) {
+	override void OnGroupChanged() {
+	override void OnItemInInventoryChanged() {
+	override void OnInviteReceived() {
+	void AcceptGroupInvite() {
+	void MissionGameplay() {
+	override void OnInitLB() {
+	void SendTextureRPC() {
+	void OnStreamerModeChange(bool enabled) {
+	void UpdateTimeAcceleration() {
+	void SendTestBEMessage() {
+	void OnChannelConfigReceived(ParamsReadContext ctx) {
+	override void OnUpdate(float timeslice) {
+	void ToggleCompass() {
+	void OnGPSAndCompassChange() {
+	void ToggleGPS() {
+	void TogglePlayerList() {
+	void AddPing() {
+	void ClearPing() {
+	void DisplayVoiceLevels(bool b) {
+	void SendChatMessage(string message) {
+	void SwitchNextChannel() {
+	void UpdateChannel() {
+class LBGroupMember : LBMarker {
+	void FindPlayerBase() {
+	void SetSteamid(string steamid_) {
+	override void SetPosition(vector pos) {
+	override void UpdateMarkerSlow() {
+	override void OnMarkerRPCClient(int type_, ParamsReadContext ctx) {
+	void SetPermission(int perm) {
+	void SetOnline(bool on, string hashedId_) {
+	void SetHealth(float health_) {
+	override void WriteToCtx(ParamsWriteContext ctx, bool steamids_ = true, bool positions_ = true) {
+	void LBGroupRef(string shortname_, LBGroup grp) {
+	void WriteToCtx(ParamsWriteContext ctx) {
+	static void InitCompassWidgets() {
+	static void UpdateAllMarkers() {
+	static void UpdateAllMarkersSlow() {
+	void SetupMarker(LBMarkerType type_, string name_, string icon_, vector pos_) {
+	void InitMarker() {
+	void InitCompassWidget() {
+	void OverwriteMaxDistance(float distance) {
+	void ResetMaxDistanceOverwrite() {
+	void UpdateMarkerSlow() {
+	void GetMainWidgetSize() {
+	void OnMarkerRPCClient(int type_, ParamsReadContext ctx) {
+	void AddToAllList() {
+	void RemoveFromAllList() {
+	void LBMarker() {
+	void SetSubGroup(int grp) {
+	void SetPosition(vector pos) {
+	void SendPositionToServer() {
+	void SetRadius(float radius, b
+	void SyncRadiusServer(float radius, int ca, int cr, int cg, int cb, bool striked, int layer) {
+	void SetColor(bool force = false) {
+	void SetDistance() {
+	void ShowMainWidget(bool show) {
+	void SetVisibleOnScreen(bool b) {
+	void WriteToCtx(ParamsWriteContext ctx, bool steamids_ = true, bool positions_ = true) {
+	void SendMarkerRPC(ScriptRPC rpc) {
+}class LBSafezoneMarker : LBGroupMember {
+	override void FindPlayerBase() {}
+	override void InitCompassWidget() {}
+	override void InitMarker() {
+	void UpdateTitle(string title, int titleColor) {
+}class LBServerMarker : LBMarker {
+	void InitFromLBMarker(LBMarker marker) {
+	override void WriteToCtx(ParamsWriteContext ctx, bool steamids_ = true, bool positions_ = true) {
+	override void InitMarker() {
+	override void SetPosition(vector pos) {
+	void Init(string namee, vector pos, string ic, int a, int r, int g, int b, bool toSuf = true, bool disp3d = true, bool dispMap = true, bool dispGPS = true) {
+}class LBMarkerVisibilityManager : LBConfigLoader<LBMarkerVisibilityManager_> {
+	override void InitVars() {
+class LBMarkerVisibilityManager_ : LBConfigBase {
+	override void LoadDefault() {
+	override void UpdateVersion() {
+	void SetChannelHidden(string name, bool hidden) {
+	void ResetPingToDefault() {
+	void SetPingMarkerIcon(string icon) {
+	void SetPlayerMarkerIcon(string icon) {
+	void SetAllGlobalStates(int state) {
+class LBGroupManager : LBConfigLoader<LBGroup_> {
+	override void InitVars() {
+	void OnLoadServer() {
+	void InitMarkers() {
+	void RemoveMarkersForAdminPage() {
+	void OnRPCClient(int type, ParamsReadContext ctx) {
+	void OnPlayerOnline(PlayerBase player, PlayerIdentity identity) {}
+	void OnPlayerOffline(PlayerBase player, string steamid) {}
+	void KickPlayerClient(string steamid) {
+	void DemotePlayerClient(string steamid) {
+	void PromotePlayerClient(string steamid) {
+	void PromoteDemoteKickHelpter(string steamid, int type) {
+	void LeaveGroupClient() {
+	void UpgradeGroupClient() {
+	void RemoveMember(PlayerBase player) {
+	void RemoveMember(string steamid) {
+	void RemoveMember(LBGroupMember member) {
+	void JoinSubgroupRequest(int grp) {
+	void MoveSubgroupRequest(int markerUid, int grp) {
+	void WriteGroupToCtx(ParamsWriteContext ctx, bool steamids_ = true, bool markers_ = true, bool seePlayers = true) {
+	void ChangeTagColor(bool has, int r, int g, int b, bool byPlayer) {
+	void AddMarker(LBMarker marker) {
+	void ClearPing() {
+	void SendErrorNotificationLOCAL(string message, float show_time = 4) {
+	void RemoveMarker(LBMarker marker) {
+	void SendRPCToServer(ScriptRPC rpc) {
+	void SendChatTagVisibilityRequest(bool visible) {
+	void RenameTo(string newShortname, string newName) {
+	void SendPlayerInviteClient(string steamid) {
+	void AddMarkerLocal(LBMarker marker) {
+	void RemoveMarkerLocal(LBMarker marker) {
+	void SendATMBalanceChanged() {
+	void SendATMAccountChanged() {
+	void SendRPCToGroupMembers(ScriptRPC rpc, int otherRPCType = -1) {}
+	void InitNumbers() {}
+}class LBSafezoneMarkers : LBConfigLoader<LBSafezoneMarkers_> {
+	override void InitVars() {
+class LBSafezoneMarkers_ : LBConfigBase {
+	override void OnReceivedFromRPC
+class LBPositionManager : LBConfigLoader<LBPositionManager_> {
+	override void InitVars() {
+class LBPositionManager_ : LBConfigBase {
+	void ResetAll() {
+	override void JsonSaveVar(string path, out bool overwriteTest) {
+	override void LoadDefault() {
+	static void InvokeOnChanged() {
+	void SetPosition(strin
+	void SetIndex(string posStr, int index, bool add = true) {
+	void ResetPositionToDefault(string posStr) {
+}class LBStaticMarkerManager : LBConfigLoader<LBStaticMarkerManager_> {
+	override void InitVars() {
+class LBStaticMarkerManager_ : LBConfigBaseSingle {
+	override void JsonSaveVar(string path, out bool overwriteTest) {
+class LBLayoutConfig : LBConfigLoader<LBLayoutConfig_> {
+	override void InitVars() {
+class LBLayoutConfig_ : LBConfigBase {
+	void ResetAll() {
+	static void InvokeOnLayoutChanged() {
+	static void InvokeGPSChanged() {
+	override void UpdateVersion() {
+	void SetStreamerMode(bool enabled) {
+	void SetPlayerlistLayout(int index) {
+}class LBGroupSettingsConfig : LBConfigLoader<LBGroupSettingsConfig_> {
+	override void InitVars() {
+class LBGroupSettingsConfig_ : LBConfigBase {
+	override void WriteExtraCtx(ParamsWriteContext ctx) {
+	void SetGroupCreationCost() {
+class LBTerritoryConfig : LBConfigLoader<LBTerritoryConfig_> {
+	override void InitVars() {
+class LBTerritoryConfig_ : LBConfigBase {
+	void AddClientNotification(string message) {
+	void SendPlayerNotification(PlayerBase player, string message) {
+class LBColorManager : LBConfigLoader<LBColorManager_> {
+	override void InitVars() {
+class LBColorManager_ : LBConfigBase {
+	override void JsonSaveVar(string path, out bool overwriteTest) {
+	void ResetAll() {
+	static void InvokeOnChanged() {
+	void SetColor(string colorStr, int colorARGB, bool add = true) {
+	void SetDefaultColors() {
+	void ResetColorToDefault(string colorStr) {
+}class LBPrivateMarkerManager : LBConfigLoader<LBPrivateMarkerManager_> {
+	override void InitVars() {
+class LBPrivateMarkerManager_ : LBConfigBase {
+	override void JsonSaveVar(string path, out bool overwriteTest) {
+	void InitMarkers(string servername) {
+	void DeleteOldDeathMarker() {
+	void AddMarker(LBMarker marker) {
+	void RemoveMarker(LBMarker marker) {
+	void OnInventoryUpdateGPS() {
+	override void OnInventoryExit(Man player) {
+	override void OnInventoryEnter(Man player) {
+	void PlayerBase() {
+	void RequestSafezoneTitle() {
+	override void OnVariablesSynchronized() {
+	static void ReinitAllSafezoneMarkers() {
+	void ReinitSafezoneMarker() {
+	void SetLBGroup(LBGroup grp) {
+	void OnGroupChanged() {
+	void AddSimpleClientMarker(string name, string icon, vector position, int color, string creatorId = "Server") {
+	void OnTeamkilled(PlayerBase killer, EntityAI source) {
+	override void OnRPC(PlayerIdentity sender, int rpc_type, ParamsReadContext ctx) {
+	override void SetActionsRemoteTarget(out TInputActionMap InputActionMap) {
+	void TerritoryFlag() {
+	override void OnPartDismantledServer(notnull Man player, string part_name, int action_id) {
+	override void OnStoreSave(ParamsWriteContext ctx) {
+	void SetOwnerGroup(string tag) {
+	void UpdateOwnerExistence() {
+	override void AfterStoreLoad() {
+	void GetPlotpoleSize(out float radius, out float down, out float up) {
+	override void SetActions() {
+	override void SwitchItemSelectionTextureEx(EItemManipulationContext context, Param par = null) {}
+	override protected void CreateMarkerClient(vector pos, string text, int questID, bool is3D, int objectiveIndex, int visibility) {
+	override protected void RemoveMarkersClient(int questID, int objectiveIndex) {
+	void OnGroupChanged() {}
+	void OnItemInInventoryChanged() {}
+	void OnInviteReceived() {}
+	static void Delete() {
+	void RequestGlobalMarkerAdd(LBMarker marker) {
+	void RequestGlobalMarkerRemove(int uid) {
+	void RequestGlobalMarkerUpdate(int uid) {
+	void StaticMarkersReceivedRPC(ParamsReadContext ctx) {
+	void StaticMarkerAddedRPC(ParamsReadContext ctx) {
+	void StaticMarkerRemovedRPC(ParamsReadContext ctx) {
+	void StaticMarkerChangedRPC(ParamsReadContext ctx) {
+	void ChangeMarker(LBServerMarker myMarker, LBServerMarker from) {
+	void MarkerRPC(ParamsReadContext ctx) {
+	void DeleteStaticMarkers() {
+	void AddNewMarker(LBServerMarker marker) {
+	void AddMarker(LBServerMarker marker) {
+	void DeleteMarker(LBServerMarker marker) {
+	void DeleteMarker(int uid) {
+	static void Delete() {
+	void LoadAllGroups() {}
+	void SaveGroup(LBGroup grp) {}
+	void DeleteGroup(LBGroup group) {}
+class ActionClaimFlag : ActionSingleUseBase {
+	void ActionClaimFlag() {
+	override void CreateConditionComponents() {
+#endifclass ActionInvitePlayerToGroup : ActionInteractBase {
+	void ActionInvitePlayerToGroup() {
+	override void CreateConditionComponents() {
+	static void EnableInviteAction() {
+	override void RegisterActions(TTypenameArray actions) {
+	void LBSafezoneMarkerEntry(string prefix_, LBColorConfig color_, string permission_ = "") {
+	void FillInherited(LBGroupPermission inherited) {
+	void PrintPermission() {
+	void FillInheritedPermissions() {
+}class LBCustomPageSettings : LBPageSettings {
+}class LBOnlinePlayerEntry : Param2<string, string> {
+}class LBInfoPageSettings : LBPageSettings {
+	void MapLegendItem(string iconPath_, string name_) {
+	void DeleteWidget() {
+	void CreateLegendWidget(Widget parent, int i) {
+	void InitWidgets() {
+	void ToExpected() {
+	void ToExpected() {
+	void ToExpected() {
+	void ToExpected() {
+	void LBClanTagColorConfigEntry(string steamid_, string comment_, int remain) {
+	void ToExpected() {
+}class LBMutedPlayerEntry : Param3<string, int, string> {
+	void LBPageSettings(int prio, string text) {
+}class LBPagesConfig : LBConfigLoader<LBPagesConfig_> {
+	override void InitVars() {
+class LBPagesConfig_ : LBConfigBase {
+class LBMuteConfig : LBConfigLoader<LBMuteConfig_> {
+	override void InitVars() {
+class LBMuteConfig_ : LBConfigBase {
+	void UpdateList() {
+	void SendMuteList() {
+	void MutePlayer(string name, string steamid, int minutes, string mutedBy) {
+	void UnMutePlayer(string steamid, string reason, bool sendWebhook = true) {
+	void SendMute(PlayerIdentity ident) {
+#endifclass LB_NoBuildConfig : LBConfigLoader<LB_NoBuildConfig_> {
+	override void InitVars() {
+class LB_NoBuildConfig_: LBConfigBase {
+	override void OnReceivedFromRPC(PlayerIdentity sender) {
+class ChatConfig : LBConfigLoader<ChatConfig_> {
+	override void InitVars() {
+class ChatConfig_ : LBConfigBase {
+	void SendChatList(PlayerIdentity ident = null) {
+#endifclass LBClanTagColorConfig : LBConfigLoader<LBClanTagColorConfig_> {
+	override void InitVars() {
+class LBClanTagColorConfig_ : LBConfigBase {
+}class LBGroupPermissions : LBConfigLoader<LBGroupPermissions_> {
+	override void InitVars() {
+class LBGroupPermissions_ : LBConfigBase {
+	override void JsonSaveVar(string path, out bool overwriteTest) {
+}class LBGroupTimeoutConfig : LBConfigLoader<LBGroupTimeoutConfig_> {
+	override void InitVars() {
+class LBGroupTimeoutConfig_ : LBConfigBase {
+}class LBGroupLevels : LBConfigLoader<LBGroupLevels_> {
+	override void InitVars() {
+class LBGroupLevels_ : LBConfigBase {
+	override void JsonSaveVar(string path, out bool overwriteTest) {
+	void RemoveCurrentLevel(int index) {
+	void CreateNewLevel(string input) {
+	void OrderLevels() {
+class LBMarkerSettingsConfig : LBConfigLoader<LBMarkerSettingsConfig_> {
+	override void InitVars() {
+class LBMarkerSettingsConfig_ : LBConfigBase {
+	void PrintMarkerConfigEntries() {
+}class LBGroupMiscConfig : LBConfigLoader<LBGroupMiscConfig_> {
+	override void InitVars() {
+class LBGroupMiscConfig_: LBConfigBase {
+	void LBConfigInfo() {
+class LBCoreMissionRPCHandler : LB_RPCHandler {
+	void LBCoreMissionRPCHandler() {
+	void HandleGetLogs() {
+	void HandleCountLogs() {
+	void HandleRequestAdminPermissions() {
+	void HandleSaveAdminPermissions() {
+	void HandleTeleporToPlacedItem() {
+	void OnCheckInfoRequestReceived() {
+	void LBRPCPlaceAdmin() {
+	void SendWebhooksConfig() {
+	void ReadWebhooksConfig() {
+	void RequestAllPlayerData() {
+class SpawnMenuLoadoutEditor : LBAdmin_Menu_Page {
+	override void InitWidgets() {
+	override void OnShow() {
+	override void RegisterAllLinkedVars() {
+	void ColorAllItems() {
+	void UpdateItemColor(int index) {
+	void ColorAllPresets() {
+	void UpdatePresetColor(int index) {
+	void GetAllPresetsAndItems() {
+	void RespawnParent() {
+	void SpawnStartGear() {
+	override void OnUpdateFrame() {
+	void AddSelectedFromPopup() {
+	void OnSelectDefaultItem(string itemname) {
+	void LoadSelectPopup() {
+	void ShowStatistics() {
+	void SortStatistics(array<ref Param3<string, float, float>> arr) {
+	void CalculatePresetChances(LB_PresetBase preset, float mult, array<ref Param3<string, float, float>> output, int depth) {

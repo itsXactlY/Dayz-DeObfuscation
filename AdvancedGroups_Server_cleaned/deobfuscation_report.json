@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total_files_scanned": 0,
+    "files_processed": 0,
+    "processing_success_rate": "0.0%",
+    "total_strings_found": 0,
+    "strings_decoded": 0,
+    "decode_success_rate": "0.0%",
+    "bytes_reduced": 0,
+    "junk_patterns_removed": 0,
+    "identifiers_deobfuscated": 0,
+    "suspicious_strings_analyzed": 0,
+    "patterns_discovered": 0
+  },
+  "decoder_config": {
+    "constants_found": 14,
+    "context_keys_found": 0,
+    "primary_context_length": 0,
+    "cache_entries": 0,
+    "discovered_patterns": []
+  },
+  "analysis_results": {
+    "suspicious_strings_count": 0,
+    "potential_encoded_count": 0,
+    "encoding_types_found": []
+  },
+  "discovered_constants": {
+    "Ccw1TwHfDPZggLVK": 8,
+    "DoIeHgDE2mVRoHSc": 256,
+    "XdjDbQjncRrhyHCQ": 2,
+    "Rj7dcv1nSMPT3yj4": 2,
+    "VGg1l8gfLgy7Yfo2": 1,
+    "HGS0YYmtehRNsqu0": 32,
+    "TfLX6A3wPjCFybhs": 65,
+    "FKvfMYJxCW20yYBF": 255,
+    "R0xMkh5k90T1essw": 3,
+    "YIv48kTc2kMWJ5qx": 7,
+    "UGiapRt2QI0mOmEw": 13,
+    "U1uloE0ujVVvxhe2": 3,
+    "Q4M2uDvKXkQE7PiA": 5,
+    "DzExo7t5l9xWxtUm": 255
+  },
+  "context_arrays": {},
+  "known_identifiers": {
+    "SfFuxbdumezDa91W": "DecoderClass",
+    "Ns7IynOBl5RX6MyZ": "DecryptString",
+    "F9uQoeANHD4S5R56": "DecryptStringAlt",
+    "T4QPEBrB2xOEx7Qc": "ContextObject",
+    "AQT3lGGVuJj5kIVr": "KeyArray",
+    "BrzP4IgclV4CTfv0": "KeyData",
+    "SomBJ8YD6RPDXVXM": "KeyMerge"
+  }
+}
